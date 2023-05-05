@@ -4,71 +4,97 @@ import os.path
 import pandas as pd
 import numpy as np
 
-from utils.constants import WINO_DATASET_PATH, TABLE_SEPARATOR, WINOGENDER_ORIGINAL_PATH, \
-    ANTI_STEREOTYPE_SENTENCES_TYPES, PRO_STEREOTYPE_SENTENCES_TYPES, \
-    QA_HUMANS_RAW_RESULTS_DIR, ENROLLMENT_QA_DIR, PROCESSED_QA_RES_DIR
+from utils.constants import WINO_DATASET_PATH, TABLE_SEPARATOR, \
+    WINOGENDER_ORIGINAL_PATH, ANTI_STEREOTYPE_SENTENCES_TYPES, \
+    PRO_STEREOTYPE_SENTENCES_TYPES, QA_HUMANS_RAW_RESULTS_DIR, \
+    ENROLLMENT_QA_DIR, PROCESSED_QA_RES_DIR, BUG_ORIGINAL_DATASET_PATH
 
 
-def parse_table(wino_df, mturk_ids, unique_sentences, winogender_sents, qa_wino_answers,
-                questions_distribution_categories):
+def parse_table(wino_df, mturk_ids, unique_sentences, qa_answers, q_categories):
     results = {m_id: {} for m_id in mturk_ids}
-    mistakes_df = pd.DataFrame(columns=["id_sentence", "stereotype", "fraction", "correct_answer", "question", "user_answer", "sentence"])
+    mistakes_df = pd.DataFrame(columns=["id_sentence", "stereotype", "fraction",
+                                        "correct_answer", "question", "user_answer",
+                                        "sentence"])
     for m_id in mturk_ids:
-        contents = qa_wino_answers[qa_wino_answers["mturk_id"] == m_id]
+        contents = qa_answers[qa_answers["mturk_id"] == m_id]
         for _, row in contents.iterrows():
             fraction = row['time_fraction']
             if fraction not in results[m_id]:
                 results[m_id][fraction] = {
                     cat: {'num_q': 0, 'num_correct': 0}
-                    for cat in questions_distribution_categories
+                    for cat in q_categories
                 }
             question_category = row['question_category']
 
             if row['main_entity_gender'] is None:
                 row['main_entity_gender'] = wino_df.iloc[row["id_sentence"]]["gender"]
             current_dict, stereotype_row = get_current_dict(row, m_id, question_category,
-                                                            fraction, results, unique_sentences, winogender_sents)
+                                                            fraction, results,
+                                                            unique_sentences)
 
             current_dict['num_q'] += 1
             if row['is_correct']:
                 current_dict['num_correct'] += 1
             else:
                 if stereotype_row != 'filler':
-                    mistakes_df = mistakes_df.append({"id_sentence": row["id_sentence"],
-                                                      "stereotype": stereotype_row,
-                                                      "fraction": fraction,
-                                                      "sentence": row["sentence"],
-                                                      "user_answer": row["user_answer"],
-                                                      "correct_answer": row["correct_answer"],
-                                                      "question": row['question']},
-                                                     ignore_index=True)
+                    mistakes_df = mistakes_df.append(
+                        {"id_sentence": row["id_sentence"], "stereotype": stereotype_row,
+                         "fraction": fraction, "sentence": row["sentence"],
+                         "user_answer": row["user_answer"], "question": row['question'],
+                         "correct_answer": row["correct_answer"]}, ignore_index=True)
 
     return results, mistakes_df
 
 
-def get_current_dict(row, m_id, question_category, fraction, results, unique_signal_sents, winogender_sents):
+def get_current_dict(row, m_id, question_category, fraction, results, unique_signal_sents):
     if question_category == 'filler':
         current_dict = results[m_id][fraction]['filler']
         stereotype_row = 'filler'
     else:
-        split_cat = question_category.split('.')
-        cat = split_cat[1] if split_cat[1] not in {'other', 'main'} else split_cat[2]
-        if cat in ANTI_STEREOTYPE_SENTENCES_TYPES:
-            stereotype_row = 'anti-stereotype'
-        elif cat in PRO_STEREOTYPE_SENTENCES_TYPES:
-            stereotype_row = 'pro-stereotype'
+        if args.dataset == 'wino':
+            current_dict, stereotype_row = wino_categorization(fraction, m_id,
+                                                               question_category, results,
+                                                               row, unique_signal_sents)
         else:
-            stereotype_row = 'neutral'
+            current_dict, stereotype_row = BUG_categorization(fraction, m_id,
+                                                              question_category, results,
+                                                              row, unique_signal_sents)
 
-        if stereotype_row != 'neutral' and row['user_answer'] not in {'unknown', 'neutral', row['main_entity_gender']}:
-            stereotype_row = 'ignored'  # ignore non coreference answers
-        current_dict = results[m_id][fraction][stereotype_row]
-        if stereotype_row in ['anti-stereotype', 'pro-stereotype']:
-            if row["sentence"] in winogender_sents:
-                unique_signal_sents['winogender'][stereotype_row].add(row["id_sentence"])
-            else:
-                unique_signal_sents['winobias'][stereotype_row].add(row["id_sentence"])
+    return current_dict, stereotype_row
 
+
+def BUG_categorization(fraction, m_id, question_category, results, row,
+                       unique_signal_sents):
+    split_cat = question_category.split('_')
+    stereotype_row = split_cat[0]
+    gender = split_cat[1]
+
+    current_dict = results[m_id][fraction][stereotype_row]
+    if stereotype_row in ['anti-stereotype', 'pro-stereotype']:
+        unique_signal_sents[stereotype_row].add(row["id_sentence"])
+    return current_dict, stereotype_row
+
+
+def wino_categorization(fraction, m_id, question_category, results, row,
+                        unique_signal_sents):
+    split_cat = question_category.split('.')
+    cat = split_cat[1] if split_cat[1] not in {'other', 'main'} else split_cat[2]
+    if cat in ANTI_STEREOTYPE_SENTENCES_TYPES:
+        stereotype_row = 'anti-stereotype'
+    elif cat in PRO_STEREOTYPE_SENTENCES_TYPES:
+        stereotype_row = 'pro-stereotype'
+    else:
+        stereotype_row = 'neutral'
+    if stereotype_row != 'neutral' and row['user_answer'] not in {'unknown', 'neutral',
+                                                                  row[
+                                                                      'main_entity_gender']}:
+        stereotype_row = 'ignored'  # ignore non coreference answers
+    current_dict = results[m_id][fraction][stereotype_row]
+    if stereotype_row in ['anti-stereotype', 'pro-stereotype']:
+        if row["sentence"] in winogender_sents_set:
+            unique_signal_sents['winogender'][stereotype_row].add(row["id_sentence"])
+        else:
+            unique_signal_sents['winobias'][stereotype_row].add(row["id_sentence"])
     return current_dict, stereotype_row
 
 
@@ -145,7 +171,6 @@ def write_final_df(results_df, f):
     df.to_markdown(f)
 
 
-
 def update_all_performance(fraction_row, total_ans, total_correct):
     perf = (total_correct / total_ans)*100
     agg_performance_str = f"{round(perf, 2)}% ({total_correct}/{total_ans})"
@@ -163,20 +188,26 @@ def update_category_performance(fraction_row, k, num_correct, ans):
         fraction_row[f"{k}_num"] = bias_signal_performance
 
 
-def main(questions_distribution_categories, wino_df, winogender_sents, qa_wino_answers, enrollment):
+def main(q_categories, all_df, qa_answers, enrollment):
     ids_to_analyze = sorted(list(set(enrollment["mturk_id"])))
-    unique_sentences = {d: {c: set() for c in ('pro-stereotype', 'anti-stereotype')} for d in ('winogender', 'winobias')}
-    table, mistakes_df = parse_table(wino_df, ids_to_analyze, unique_sentences,
-                                     winogender_sents, qa_wino_answers,
-                                     questions_distribution_categories)
-    analyze(table, questions_distribution_categories)
+    if args.dataset == 'wino':
+        unique_sentences = {d: {c: set() for c in ('pro-stereotype', 'anti-stereotype')}
+                            for d in ('winogender', 'winobias')}
+    else:
+        unique_sentences = {c: set() for c in ('pro-stereotype', 'anti-stereotype')}
+    table, mistakes_df = parse_table(all_df, ids_to_analyze, unique_sentences, qa_answers,
+                                     q_categories)
+    analyze(table, q_categories)
     dataset_coverage_analyze(unique_sentences)
 
 
 def dataset_coverage_analyze(unique_sentences):
     for d in unique_sentences:
-        for c in unique_sentences[d]:
-            unique_sentences[d][c] = len(unique_sentences[d][c])
+        if type(unique_sentences[d]) == dict:
+            for c in unique_sentences[d]:
+                unique_sentences[d][c] = len(unique_sentences[d][c])
+        else:
+            unique_sentences[d] = [len(unique_sentences[d])]
     df_numbers = pd.DataFrame(unique_sentences)
     with open(dataset_coverage_path, 'w') as f:
         df_numbers.to_markdown(f)
@@ -184,16 +215,22 @@ def dataset_coverage_analyze(unique_sentences):
 
 if __name__ == '__main__':
     parser = ArgumentParser()
-    parser.add_argument("--out_path", default=os.path.join(PROCESSED_QA_RES_DIR, "wino"),
-                        help="Path to save all of the script output")
+    parser.add_argument("--dataset", choices=["wino", "BUG"],
+                        help="name of dataset to analyze")
+    parser.add_argument("--out_path", help="Path to save all of the script output")
     args = parser.parse_args()
+    if not args.out_path:
+        args.out_path = os.path.join(PROCESSED_QA_RES_DIR, args.dataset)
     per_participant_results_path = os.path.join(args.out_path, "per_participant.txt")
     aggregated_results_path = os.path.join(args.out_path, "aggregated.md")
     dataset_coverage_path = os.path.join(args.out_path, "dataset_coverage.md")
     table_header = ["anti-stereotype", "pro-stereotype", "filler", "ignored", "neutral"]
-    all_wino_df = pd.read_csv(WINO_DATASET_PATH, TABLE_SEPARATOR)
+    if args.dataset == 'wino':
+        all_data_df = pd.read_csv(WINO_DATASET_PATH, TABLE_SEPARATOR)
+    else:
+        all_data_df = pd.read_csv(BUG_ORIGINAL_DATASET_PATH, encoding='latin-1')
     winogender_df = pd.read_csv(WINOGENDER_ORIGINAL_PATH, TABLE_SEPARATOR)
     winogender_sents_set = set(winogender_df["sentence"])
-    qa_wino_answers_df = pd.read_csv(os.path.join(QA_HUMANS_RAW_RESULTS_DIR, "wino.csv"))
-    enrollment_df = pd.read_csv(os.path.join(ENROLLMENT_QA_DIR, "wino.csv"))
-    main(table_header, all_wino_df, winogender_sents_set, qa_wino_answers_df, enrollment_df)
+    qa_answers_df = pd.read_csv(os.path.join(QA_HUMANS_RAW_RESULTS_DIR, f"{args.dataset}.csv"))
+    enrollment_df = pd.read_csv(os.path.join(ENROLLMENT_QA_DIR, f"{args.dataset}.csv"))
+    main(table_header, all_data_df, qa_answers_df, enrollment_df)
