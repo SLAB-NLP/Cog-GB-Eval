@@ -19,7 +19,6 @@ import json
 import pandas as pd
 from itertools import product
 from argparse import ArgumentParser
-from utils.BUG.map_sentences import get_closest_sentence
 from utils.constants import MODELS_RAW_RESULTS_DIR, WINO_DATASET_PATH, \
     TABLE_SEPARATOR, BUG_ORIGINAL_DATASET_PATH, PRO_STEREOTYPE_SENTENCES_TYPES, \
     DATASET_NAMES, MODEL_NAMES
@@ -129,6 +128,21 @@ def analyze_models(out_path, model_names):
         all_results[f"{dataset}-{model}"] = {"correct": correct_lst, "incorrect": incorrect_lst}
     with open(out_path, 'wt') as f:
         json.dump(all_results, f)
+
+
+def get_closest_sentence(orig_data, sentence):
+    """ return the uid of the closest sentence that appears in the dataset """
+    max_uid = -999
+    max_intersect = 0
+    sent_split = sentence.split(' ')
+    for i, row in orig_data.iterrows():
+        if row.isnull()["sentence_text"]:
+            continue
+        intersect = set(row['sentence_text'].split(' ')) & set(sent_split)
+        if len(intersect) > max_intersect:
+            max_uid = row["uid"]
+            max_intersect = len(intersect)
+    return max_uid
 
 
 if __name__ == '__main__':
