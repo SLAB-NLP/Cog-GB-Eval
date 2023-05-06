@@ -9,7 +9,7 @@ If you want to parse your own model results, you need to add them to
 MODELS_RAW_RESULTS_DIR in the same format as the existing model results (s2e and SpanBERT).
 
 Usage:
-    analyze_models/generate_result_ids_lists.py --out_path <path> --model_name s2e --model_name SpanBERT
+    utils/generate_model_result_ids_lists.py --out_path <path> --model_name s2e --model_name SpanBERT
 """
 
 import os
