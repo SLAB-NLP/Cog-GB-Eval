@@ -3,6 +3,7 @@ from argparse import ArgumentParser
 import os.path
 import pandas as pd
 import numpy as np
+import pickle
 
 from utils.constants import WINO_DATASET_PATH, TABLE_SEPARATOR, \
     WINOGENDER_ORIGINAL_PATH, ANTI_STEREOTYPE_SENTENCES_TYPES, \
@@ -202,15 +203,19 @@ def main(q_categories, all_df, qa_answers, enrollment):
 
 
 def dataset_coverage_analyze(unique_sentences):
+    len_ids = {}
     for d in unique_sentences:
         if type(unique_sentences[d]) == dict:
+            len_ids[d] = {}
             for c in unique_sentences[d]:
-                unique_sentences[d][c] = len(unique_sentences[d][c])
+                len_ids[d][c] = len(unique_sentences[d][c])
         else:
-            unique_sentences[d] = [len(unique_sentences[d])]
-    df_numbers = pd.DataFrame(unique_sentences)
+            len_ids[d] = [len(unique_sentences[d])]
+    df_numbers = pd.DataFrame(len_ids)
     with open(dataset_coverage_path, 'w') as f:
         df_numbers.to_markdown(f)
+    with open(sentences_ids_covered_path, 'wb') as f:
+        pickle.dump(unique_sentences, f)
 
 
 if __name__ == '__main__':
@@ -224,6 +229,7 @@ if __name__ == '__main__':
     per_participant_results_path = os.path.join(args.out_path, "per_participant.txt")
     aggregated_results_path = os.path.join(args.out_path, "aggregated.md")
     dataset_coverage_path = os.path.join(args.out_path, "dataset_coverage.md")
+    sentences_ids_covered_path = os.path.join(args.out_path, "ids_covered.pkl")
     table_header = ["anti-stereotype", "pro-stereotype", "filler", "ignored", "neutral"]
     if args.dataset == 'wino':
         all_data_df = pd.read_csv(WINO_DATASET_PATH, TABLE_SEPARATOR)
