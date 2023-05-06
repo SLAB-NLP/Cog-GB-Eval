@@ -22,7 +22,7 @@ from argparse import ArgumentParser
 from utils.BUG.map_sentences import get_closest_sentence
 from utils.constants import MODELS_RAW_RESULTS_DIR, WINO_DATASET_PATH, \
     TABLE_SEPARATOR, BUG_ORIGINAL_DATASET_PATH, PRO_STEREOTYPE_SENTENCES_TYPES, \
-    DATASET_NAMES, MODEL_NAMES, DEFAULT_MODELS_RESULT_PATH
+    DATASET_NAMES, MODEL_NAMES
 
 
 def eval_single_model(dataset_name, model, data_df):
@@ -134,12 +134,9 @@ def analyze_models(out_path, model_names):
 if __name__ == '__main__':
 
     parser = ArgumentParser()
-    parser.add_argument("--out_path", default=DEFAULT_MODELS_RESULT_PATH,
-                        help="path to save model results")
+    parser.add_argument("--out_path", help="path to save model results")
     parser.add_argument("--model_name", default=MODEL_NAMES, action='append',
-                        help="name of model to evaluate on. Model results must be added "
-                             "to DEFAULT_MODELS_RESULT_PATH, in the same format like s2e "
-                             "and SpanBERT.")
+                        help="name of models to evaluate on")
 
     args = parser.parse_args()
     analyze_models(args.out_path, args.model_name)

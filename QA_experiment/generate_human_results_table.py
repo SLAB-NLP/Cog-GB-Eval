@@ -8,7 +8,7 @@ import pickle
 from utils.constants import WINO_DATASET_PATH, TABLE_SEPARATOR, \
     WINOGENDER_ORIGINAL_PATH, ANTI_STEREOTYPE_SENTENCES_TYPES, \
     PRO_STEREOTYPE_SENTENCES_TYPES, QA_HUMANS_RAW_RESULTS_DIR, \
-    ENROLLMENT_QA_DIR, PROCESSED_QA_RES_DIR, BUG_ORIGINAL_DATASET_PATH
+    ENROLLMENT_QA_DIR, BUG_ORIGINAL_DATASET_PATH
 
 
 def parse_table(wino_df, mturk_ids, unique_sentences, qa_answers, q_categories):
@@ -224,8 +224,7 @@ if __name__ == '__main__':
                         help="name of dataset to analyze")
     parser.add_argument("--out_path", help="Path to save all of the script output")
     args = parser.parse_args()
-    if not args.out_path:
-        args.out_path = os.path.join(PROCESSED_QA_RES_DIR, args.dataset)
+
     per_participant_results_path = os.path.join(args.out_path, "per_participant.txt")
     aggregated_results_path = os.path.join(args.out_path, "aggregated.md")
     dataset_coverage_path = os.path.join(args.out_path, "dataset_coverage.md")
