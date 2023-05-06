@@ -90,3 +90,8 @@ def save_ids_of_analyze(ids_list, out_dir):
     path = os.path.join(out_dir, "ids_covered.pkl")
     with open(path, 'wb') as f:
         pickle.dump(set(ids_list), f)
+
+
+def save_df(df, out_dir):
+    path = os.path.join(out_dir, "correct_answers.csv")
+    df.to_csv(path)

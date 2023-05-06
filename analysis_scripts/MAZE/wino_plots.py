@@ -6,7 +6,7 @@ from utils.constants import WINO_DATASET_PATH, MAZE_HUMANS_RAW_RESULTS_DIR, \
     TABLE_SEPARATOR
 
 from analysis_scripts.MAZE.plots_helper import calculate_total_success_rate, \
-    remove_incorrect_lines, plot_cdf, HEADER, save_ids_of_analyze
+    remove_incorrect_lines, plot_cdf, HEADER, save_ids_of_analyze, save_df
 
 
 def load_data(path_to_csv):
@@ -69,5 +69,6 @@ if __name__ == '__main__':
     processed_df = parse_results(raw_df, original_wino)
     calculate_total_success_rate(processed_df, args.out_path)
     only_correct = remove_incorrect_lines(processed_df)
+    save_df(only_correct, args.out_path)
     save_ids_of_analyze(only_correct["sentence_id"].values, args.out_path)
     plot_cdf(only_correct, args.out_path, "Wino")
