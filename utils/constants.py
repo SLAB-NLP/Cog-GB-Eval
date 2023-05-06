@@ -13,7 +13,7 @@ MODELS_RAW_RESULTS_DIR = os.path.join(RAW_EXPERIMENT_RESULTS_DIR, "models")
 HUMANS_RAW_RESULTS_DIR = os.path.join(RAW_EXPERIMENT_RESULTS_DIR, "humans")
 QA_HUMANS_RAW_RESULTS_DIR = os.path.join(HUMANS_RAW_RESULTS_DIR, "QA")
 MAZE_HUMANS_RAW_RESULTS_DIR = os.path.join(HUMANS_RAW_RESULTS_DIR, "MAZE")
-ENROLLMENT_QA_DIR = os.path.join(EXPERIMENT_RESULTS_DIR, "enrollment_QA")
+ENROLLMENT_QA_DIR = os.path.join(HUMANS_RAW_RESULTS_DIR, "enrollment_QA")
 
 
 # Seperator for parsing csv file to pandas
