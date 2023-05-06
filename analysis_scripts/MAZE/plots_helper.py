@@ -1,3 +1,5 @@
+import pickle
+
 import pandas as pd
 import os
 import numpy as np
@@ -82,3 +84,9 @@ def clean_IQR(raw_times):
     idx_min = (np.abs(time - min_g)).argmin()
     clear_time = time[idx_min:idx_max]
     return clear_time
+
+
+def save_ids_of_analyze(ids_list, out_dir):
+    path = os.path.join(out_dir, "ids_covered.pkl")
+    with open(path, 'wb') as f:
+        pickle.dump(set(ids_list), f)
