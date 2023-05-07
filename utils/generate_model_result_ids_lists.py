@@ -2,14 +2,17 @@
 
 """
 This script analyze models results over datasets.
-It creates for each model and each dataset, a list of incorrect predictions sentences ids,
-and a list of correct predictions sentences ids.
+It creates for each model and each dataset, a list of incorrect predictions sentence ids,
+and a list of correct predictions sentence ids.
 This script parse a jsonl file of model results as it appears in MODELS_RAW_RESULTS_DIR.
 If you want to parse your own model results, you need to add them to
 MODELS_RAW_RESULTS_DIR in the same format as the existing model results (s2e and SpanBERT).
 
 Usage:
-    utils/generate_model_result_ids_lists.py --out_path <path> --model_name s2e --model_name SpanBERT
+    utils/generate_model_result_ids_lists.py --out_path <path> --model_name <name>
+
+Example:
+    utils/generate_model_result_ids_lists.py --out_path experiment_results/processed/models/eval.json --model_name s2e --model_name SpanBERT
 """
 
 import os

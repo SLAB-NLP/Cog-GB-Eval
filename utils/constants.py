@@ -16,8 +16,9 @@ MAZE_HUMANS_RAW_RESULTS_DIR = os.path.join(HUMANS_RAW_RESULTS_DIR, "MAZE")
 ENROLLMENT_QA_DIR = os.path.join(HUMANS_RAW_RESULTS_DIR, "enrollment_QA")
 
 
-# Seperator for parsing csv file to pandas
+# Seperator for parsing wino csv file to pandas
 TABLE_SEPARATOR = '\t'
+
 
 # According to our suggested fine-grained categorization, we suggest a more specific
 # division to pro and anti stereotype samples:
@@ -25,6 +26,9 @@ ANTI_STEREOTYPE_SENTENCES_TYPES = ['anti-pro', 'neutral-pro', 'anti-neutral']
 PRO_STEREOTYPE_SENTENCES_TYPES = ['pro-anti', 'neutral-anti', 'pro-neutral']
 
 
+# If you add any more models / dataset results, you should update its name here, and
+# locate the data in the matching directories according to the existing models and
+# datasets.
 DATASET_NAMES = ["BUG", "wino"]
 MODEL_NAMES = ["SpanBERT", "s2e"]
 

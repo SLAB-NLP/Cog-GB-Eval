@@ -6,7 +6,15 @@ from utils.constants import BUG_ORIGINAL_DATASET_PATH, WINO_DATASET_PATH, \
 
 
 def get_models_answers_match_humans(models_path, humans_ids):
-    """ Retrieves models score only on the sentences humans annotated """
+    """
+    Retrieves models score only on sentences with the given ids.
+    :param models_path: path to where models results are saved. assumes that models
+    results are saved as list of correct and incorrect sentences ids.
+    :param humans_ids: ids of sentences which models will be tested on. Assumes it is a
+    dictionary, keys are dataset names and values are ids list.
+    :return: 3 scores for each model on each dataset:
+    pro-stereotype score, anti-stereotype score, and delta (pro minus anti).
+    """
     BUG_ds = pd.read_csv(BUG_ORIGINAL_DATASET_PATH, encoding='latin-1')
     wino_ds = pd.read_csv(WINO_DATASET_PATH, sep=TABLE_SEPARATOR)
     true_val, false_val = 1, -1
@@ -35,6 +43,7 @@ def get_models_answers_match_humans(models_path, humans_ids):
 
 def get_pro_anti_performance(ds_name, humans_ids, model_results, original_df,
                              true_val, false_val):
+    """ helper method to calculate the score for each category (pro/anti) """
     correct_intersect = set(model_results['correct']).intersection(humans_ids)
     incorrect_intersect = set(model_results['incorrect']).intersection(humans_ids)
     correct_lines = original_df[ds_name].iloc[list(correct_intersect)]
