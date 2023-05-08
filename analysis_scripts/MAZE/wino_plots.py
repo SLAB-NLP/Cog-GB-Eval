@@ -65,7 +65,7 @@ if __name__ == '__main__':
     parser.add_argument("--out_path", help="path to save results")
     args = parser.parse_args()
     original_wino = pd.read_csv(WINO_DATASET_PATH, sep=TABLE_SEPARATOR)
-    raw_df = load_data(os.path.join(MAZE_HUMANS_RAW_RESULTS_DIR, "wino"))
+    raw_df = load_data(os.path.join(MAZE_HUMANS_RAW_RESULTS_DIR, "wino.raw"))
     processed_df = parse_results(raw_df, original_wino)
     calculate_total_success_rate(processed_df, args.out_path)
     only_correct = remove_incorrect_lines(processed_df)

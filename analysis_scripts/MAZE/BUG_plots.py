@@ -99,7 +99,7 @@ if __name__ == '__main__':
     parser.add_argument("--out_path", help="path to save results")
     args = parser.parse_args()
     original_BUG = pd.read_csv(BUG_ORIGINAL_DATASET_PATH, encoding='latin-1')
-    raw_df = load_data(os.path.join(MAZE_HUMANS_RAW_RESULTS_DIR, "BUG"))
+    raw_df = load_data(os.path.join(MAZE_HUMANS_RAW_RESULTS_DIR, "BUG.raw"))
     processed_df = parse_results(raw_df, original_BUG)
     calculate_total_success_rate(processed_df, args.out_path)
     only_correct = remove_incorrect_lines(processed_df)
