@@ -6,6 +6,8 @@ This directory contains the following files:
 - `gold_BUG.csv`: This is a partial version of the original BUG dataset, including only sentences that were manually annotated for stereotype label (pro/anti/neutral).
 - `BUG_ids_mapping.json`: Mapping between sentences and their id, according to the csv.
 - `winogender_original.tsv`: The original version of only winogender sentences.
+- `cpsaat11.csv`: TODO
+- `occupations-stats.tsv`: TODO
 
 ### References
 ####BUG

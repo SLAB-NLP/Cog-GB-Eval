@@ -6,6 +6,8 @@ BUG_ORIGINAL_DATASET_PATH = os.path.join(DATA_DIR, "gold_BUG.csv")
 WINO_DATASET_PATH = os.path.join(DATA_DIR, "wino_combined.csv")
 WINOGENDER_ORIGINAL_PATH = os.path.join(DATA_DIR, "winogender_original.tsv")
 BUG_IDS_MAPPING_PATH = os.path.join(DATA_DIR, "BUG_ids_mapping.json")
+US_LABOR_PATH = os.path.join(DATA_DIR, "cpsaat11.csv")
+WINO_STATS_PATH = os.path.join(DATA_DIR, "occupations-stats.tsv")
 
 EXPERIMENT_RESULTS_DIR = "experiment_results"
 RAW_EXPERIMENT_RESULTS_DIR = os.path.join(EXPERIMENT_RESULTS_DIR, "raw")
