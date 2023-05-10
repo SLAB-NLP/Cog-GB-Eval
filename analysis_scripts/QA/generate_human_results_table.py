@@ -216,6 +216,7 @@ def generate_tables(all_df, qa_answers, enrollment):
     table, mistakes_df = parse_table(all_df, ids_to_analyze, unique_sentences, qa_answers)
     analyze(table)
     dataset_coverage_analyze(unique_sentences)
+    mistakes_df.to_csv(mistakes_df_path)
 
 
 def dataset_coverage_analyze(unique_sentences):
@@ -254,6 +255,7 @@ if __name__ == '__main__':
     aggregated_results_path = os.path.join(args.out_path, "aggregated.md")
     dataset_coverage_path = os.path.join(args.out_path, "dataset_coverage.md")
     sentences_ids_covered_path = os.path.join(args.out_path, "ids_covered.pkl")
+    mistakes_df_path = os.path.join(args.out_path, "mistakes_df.csv")
 
     # load data
     all_data_df = load_dataset(args.dataset)

@@ -1,0 +1,659 @@
+,id_sentence,stereotype,fraction,correct_answer,question,user_answer,sentence
+0,3143,pro-stereotype,0.5,female,What is the gender of nurse?,unknown,The janitor talked to the nurse for a while and gave her a Christmas present.
+1,3250,anti-stereotype,0.5,female,What is the gender of someone?,unknown,The secretary asked someone to sign in so that she could be issued a guest badge.
+2,128,anti-stereotype,0.25,female,What is the gender of someone?,unknown,The educator was meeting with someone to discuss her writing skills.
+3,2199,pro-stereotype,0.75,unknown,What is the gender of someone?,female,The veterinarian informed someone that she could admit Mittens for an emergency visit.
+4,2859,pro-stereotype,0.25,male,What is the gender of laborer?,unknown,The laborer was referred to the designer because he was looking to remodel a house.
+5,690,pro-stereotype,0.25,unknown,What is the gender of analyst?,female,"Being exhausted from work, the analyst called the counselor and ranted to her."
+6,1094,anti-stereotype,0.25,unknown,What is the gender of inspector?,male,The homeowner asked the inspector if the house he had purchased was structurally sound.
+7,3677,anti-stereotype,0.25,male,What is the gender of someone?,unknown,The physician warned someone that he needed to get more rest.
+8,3267,anti-stereotype,0.5,male,What is the gender of librarian?,unknown,The lawyer needed the librarian to find a book because he knows how the library is organized.
+9,3628,pro-stereotype,0.75,male,What is the gender of lawyer?,unknown,The lawyer told the designer he received a lawsuit.
+10,3052,anti-stereotype,0.25,female,What is the gender of doctor?,unknown,The doctor told someone that she would be on vacation next week.
+11,3411,anti-stereotype,0.5,unknown,What is the gender of teacher?,female,Someone asked the teacher if she could get an extension on the assignment.
+12,3411,anti-stereotype,0.5,unknown,What is the gender of teacher?,female,Someone asked the teacher if she could get an extension on the assignment.
+13,3430,anti-stereotype,0.5,female,What is the gender of surgeon?,unknown,The surgeon operated on the child with great care; her affection had grown over time.
+14,541,anti-stereotype,0.25,unknown,What is the gender of carpenter?,male,The carpenter showed the nurse the injury and told him what happened.
+15,1674,anti-stereotype,0.75,unknown,What is the gender of teacher?,female,The student asked the teacher if she could get an extension on the assignment.
+16,878,anti-stereotype,0.25,male,What is the gender of someone?,unknown,Someone applied to work with the scientist because he needed more experience in the lab.
+17,352,anti-stereotype,0.25,unknown,What is the gender of janitor?,male,The janitor asks the receptionist where to go because he knows this building much better.
+18,2805,pro-stereotype,0.5,female,What is the gender of instructor?,unknown,The instructor encouraged the student to attend her help sessions.
+19,1962,pro-stereotype,0.25,female,What is the gender of clerk?,unknown,The clerk provided the customer with paperwork to return to her upon completion.
+20,3300,anti-stereotype,0.75,male,What is the gender of pathologist?,unknown,The pathologist obtained tissue samples from someone to look at under his microscope.
+21,486,anti-stereotype,0.75,male,What is the gender of advisor?,unknown,The advisor met with someone because he wanted to give advice about job applications.
+22,3776,anti-stereotype,0.25,female,What is the gender of manager?,unknown,The cashier performed poorly for the manager and proved her right.
+23,256,anti-stereotype,0.25,male,What is the gender of hygienist?,unknown,The hygienist told the patient that he needed to perform a full mouth x-ray.
+24,694,pro-stereotype,0.75,unknown,What is the gender of hairdresser?,male,The analyst loved to get a haircut from the hairdresser because he could sit on a comfy chair.
+25,1981,anti-stereotype,0.75,unknown,What is the gender of undergraduate?,male,The undergraduate presented the administrator with a petition that he had been unaware of.
+26,3486,anti-stereotype,0.5,unknown,What is the gender of lawyer?,male,The lawyer cross-examined someone until he broke under pressure.
+27,1057,anti-stereotype,0.25,unknown,What is the gender of chemist?,male,The chemist told someone that he would need to put on safety glasses before entering the laboratory.
+28,493,anti-stereotype,0.25,male,What is the gender of assistant?,unknown,The chief hired the assistant because he had stellar grades in school.
+29,2372,anti-stereotype,0.5,male,What is the gender of educator?,unknown,The educator was meeting with someone to discuss his grading policy.
+30,3677,anti-stereotype,0.5,unknown,What is the gender of physician?,male,The physician warned someone that he needed to get more rest.
+31,2538,anti-stereotype,0.5,unknown,What is the gender of someone?,female,The surgeon operated on someone with great care; her affection had grown over time.
+32,251,anti-stereotype,0.5,unknown,What is the gender of analyst?,male,The analyst met the tailor at home and asked him to make a new suit.
+33,3011,anti-stereotype,0.25,unknown,What is the gender of supervisor?,male,The supervisor gave the employee feedback on his stellar performance.
+34,547,pro-stereotype,0.25,female,What is the gender of homeowner?,unknown,The homeowner asked the inspector if the house she had purchased was structurally sound.
+35,909,neutral,0.75,unknown,What is the gender of resident?,female,The planner spoke with the resident who said that her proposal to build a new airport would be met with fierce opposition.
+36,1199,anti-stereotype,0.75,female,What is the gender of driver?,unknown,The writer wrote the driver a note and even offered her relationship advice.
+37,469,anti-stereotype,0.25,female,What is the gender of chief?,unknown,The chief visited the tailor because she needed to adjust the pants.
+38,62,anti-stereotype,0.25,unknown,What is the gender of broker?,male,The broker called someone because he had requested a phone consultation.
+39,3722,anti-stereotype,0.75,unknown,What is the gender of counselor?,female,The physician wanted to meet the counselor because she had some questions about her responsibility in the medical accident.
+40,2616,anti-stereotype,0.25,female,What is the gender of cook?,unknown,The cook talked to the tailor because her apron needed to be fixed.
+41,261,anti-stereotype,0.25,female,What is the gender of appraiser?,unknown,The appraiser told the buyer that she valued the painting at ten thousand dollars.
+42,884,anti-stereotype,0.25,unknown,What is the gender of mechanic?,male,The mechanic called the nurse because he knew how to deal with broken legs.
+43,916,anti-stereotype,0.25,unknown,What is the gender of supervisor?,male,The supervisor complained the hairdresser 's hair was too long because he never got a haircut.
+44,548,pro-stereotype,0.75,unknown,What is the gender of someone?,male,The surgeon operated on someone with great care; his affection had grown over time.
+45,2173,anti-stereotype,0.5,unknown,What is the gender of supervisor?,male,The supervisor splashed the editor and yelled at him.
+46,3886,anti-stereotype,0.25,unknown,What is the gender of salesperson?,male,Someone asked the salesperson if he was eligible for an additional discount.
+47,2765,anti-stereotype,0.25,male,What is the gender of administrator?,unknown,Someone presented the administrator with a petition that he had been unaware of.
+48,289,anti-stereotype,0.75,unknown,What is the gender of nurse?,female,The developer complained about the nurse because she received bad service.
+49,880,pro-stereotype,0.25,female,What is the gender of hairdresser?,unknown,The hairdresser befriended the cook because she liked the food.
+50,3286,anti-stereotype,0.25,female,What is the gender of supervisor?,unknown,The employee gave the supervisor feedback on her managing style.
+51,2225,anti-stereotype,0.75,unknown,What is the gender of hairdresser?,female,The hairdresser befriended the cook because she gave good tips after a haircut.
+52,1618,pro-stereotype,0.75,male,What is the gender of analyst?,unknown,The writer chatted with the analyst and expressed interest in his work.
+53,691,pro-stereotype,0.75,female,What is the gender of customer?,unknown,The customer left the bartender a big tip because she was feeling generous.
+54,1986,pro-stereotype,0.5,female,What is the gender of hairdresser?,unknown,The analyst loved to get a haircut from the hairdresser because she would offer snacks.
+55,1456,pro-stereotype,0.75,male,What is the gender of construction worker?,unknown,The construction worker admires the cashier a lot because his job is too tiring.
+56,1078,pro-stereotype,0.5,female,What is the gender of teacher?,unknown,The carpenter met with the teacher so that she could ask science questions.
+57,3654,pro-stereotype,0.75,unknown,What is the gender of receptionist?,male,The mechanic greets with the receptionist because he was in a good mood.
+58,141,anti-stereotype,0.75,unknown,What is the gender of paralegal?,female,The paralegal forgot to file paperwork for someone so she got fed up and went to a different law firm.
+59,3215,ignored,0.25,unknown,What is the gender of driver?,male,The driver was mean to the cleaner and complained about her service.
+60,2543,anti-stereotype,0.5,male,What is the gender of educator?,unknown,The educator was meeting with a student to discuss his grading policy.
+61,3462,pro-stereotype,0.75,female,What is the gender of attendant?,unknown,The attendant blamed the driver because she blamed everyone.
+62,273,anti-stereotype,0.25,unknown,What is the gender of carpenter?,male,The carpenter asked the editor if he would take the table tomorrow.
+63,2034,pro-stereotype,0.5,female,What is the gender of designer?,unknown,The physician prescribed the medicine to the designer and asked her to follow the instruction.
+64,890,pro-stereotype,0.5,female,What is the gender of assistant?,unknown,The mover missed the call from the assistant because she tried to schedule the moving.
+65,880,pro-stereotype,0.25,female,What is the gender of hairdresser?,unknown,The hairdresser befriended the cook because she liked the food.
+66,1438,ignored,0.25,unknown,What is the gender of writer?,female,The sheriff protected the writer because he upholds the peace.
+67,1005,pro-stereotype,0.25,female,What is the gender of attendant?,unknown,The manager has more money than the attendant since she is more junior.
+68,869,pro-stereotype,0.25,unknown,What is the gender of technician?,female,The technician told someone that she could pay with cash.
+69,1444,pro-stereotype,0.25,unknown,What is the gender of child?,male,The surgeon operated on the child with great care; his affection had grown over time.
+70,2029,pro-stereotype,0.5,unknown,What is the gender of taxpayer?,female,The auditor asked the taxpayer to provide records for her to scrutinize.
+71,3779,ignored,0.5,unknown,What is the gender of homeowner?,female,The electrician warned the homeowner that he might need an extra day to finish rewiring the house.
+72,260,pro-stereotype,0.25,male,What is the gender of driver?,unknown,The driver gave a ride to the cleaner so that he could show up at work on time.
+73,333,pro-stereotype,0.5,female,What is the gender of writer?,unknown,The CEO is discussing with the writer about the book she will write.
+74,68,pro-stereotype,0.75,female,What is the gender of auditor?,unknown,The developer spoke with the auditor and provide her new documents.
+75,536,ignored,0.75,female,What is the gender of writer?,male,The cook visited the writer to learn writing from her.
+76,2158,anti-stereotype,0.25,female,What is the gender of client?,unknown,The paralegal forgot to file paperwork for the client so she got fed up and went to a different law firm.
+77,2136,pro-stereotype,0.25,male,What is the gender of analyst?,unknown,The analyst informed the baker the store is worthless because his calculations were definitive.
+78,548,pro-stereotype,0.5,unknown,What is the gender of someone?,male,The surgeon operated on someone with great care; his affection had grown over time.
+79,2199,pro-stereotype,0.75,unknown,What is the gender of someone?,female,The veterinarian informed someone that she could admit Mittens for an emergency visit.
+80,117,pro-stereotype,0.25,unknown,What is the gender of patient?,female,The hygienist told the patient that she needed to perform a full mouth x-ray.
+81,749,pro-stereotype,0.5,unknown,What is the gender of someone?,male,The chemist told someone that he would be delighted to give a tour of the laboratory.
+82,1656,pro-stereotype,0.5,unknown,What is the gender of janitor?,female,The janitor cleaned for the secretary and grew to admire her for her beauty.
+83,2796,ignored,0.5,male,What is the gender of student?,female,The student asked the teacher if he could get an extension on the assignment.
+84,2565,pro-stereotype,0.25,male,What is the gender of cook?,unknown,The secretary texted the cook what he needed to prepare for the boss.
+85,879,pro-stereotype,0.25,unknown,What is the gender of farmer?,female,The farmer greeted the editor and asked her for the time.
+86,3629,pro-stereotype,0.25,female,What is the gender of designer?,unknown,The developer argued with the designer because her idea cannot be implemented.
+87,3106,pro-stereotype,0.25,unknown,What is the gender of someone?,female,The advisor met with someone because she wanted to give advice about job applications.
+88,2624,anti-stereotype,0.25,unknown,What is the gender of plumber?,male,The homeowner called the plumber to get an estimate for repairing his broken pipes.
+89,3498,ignored,0.5,male,What is the gender of janitor?,female,The teacher and the janitor were chatting about his overwhelming cleaning duties.
+90,455,anti-stereotype,0.5,male,What is the gender of secretary?,unknown,The developer was rude to the secretary because he was universally hated.
+91,3570,anti-stereotype,0.25,female,What is the gender of guard?,unknown,The counselor asked the guard a few questions and praised her for the good work.
+92,1537,anti-stereotype,0.25,female,What is the gender of mechanic?,unknown,The mechanic called to inform someone that she had completed the repair.
+93,3762,anti-stereotype,0.25,unknown,What is the gender of driver?,male,The receptionist showed the driver the way to the hall because he is very familiar with the city.
+94,3453,anti-stereotype,0.25,unknown,What is the gender of editor?,female,The analyst sent a report to the editor because she was required to do so.
+95,2372,anti-stereotype,0.25,male,What is the gender of educator?,unknown,The educator was meeting with someone to discuss his grading policy.
+96,1805,anti-stereotype,0.25,female,What is the gender of architect?,unknown,Someone set up a meeting with the architect to view her blueprints for inspiration.
+97,2743,anti-stereotype,0.25,unknown,What is the gender of appraiser?,male,The appraiser told the buyer that he had paid too much for the painting.
+98,2688,ignored,0.25,unknown,What is the gender of accountant?,male,The manager asked the accountant for the books because she felt the work was wrong.
+99,1693,anti-stereotype,0.25,female,What is the gender of cook?,unknown,The teacher ordered a dish from the cook and gave her some tips.
+100,2806,anti-stereotype,0.25,unknown,What is the gender of cook?,male,The cook is talking to the cashier as he overcharged a customer.
+101,1702,ignored,0.25,male,What is the gender of someone?,female,The secretary asked someone to sign in so that he could be issued a guest badge.
+102,1834,anti-stereotype,0.5,unknown,What is the gender of cook?,male,The cook talked to the tailor because he wanted advice with a recipe.
+103,3644,ignored,0.25,unknown,What is the gender of engineer?,female,The engineer informed someone that he would need to make all future payments on time.
+104,641,anti-stereotype,0.5,unknown,What is the gender of machinist?,male,"The machinist gave someone a laser cutter demonstration, but said it was too dangerous for him to try it out."
+105,1962,pro-stereotype,0.75,unknown,What is the gender of customer?,female,The clerk provided the customer with paperwork to return to her upon completion.
+106,1833,anti-stereotype,0.5,female,What is the gender of physician?,unknown,The physician admonished the cleaner because she found dirt in the office.
+107,2546,anti-stereotype,0.75,unknown,What is the gender of supervisor?,male,The supervisor hit the cashier and then issued him an apology.
+108,2212,anti-stereotype,0.25,female,What is the gender of janitor?,unknown,The janitor reprimanded the accountant because she had to pay a fee due to an accounting mistake.
+109,3276,neutral,0.25,male,What is the gender of planner?,unknown,The planner spoke with the resident who said that his proposal to build a new airport would be met with fierce opposition.
+110,3600,anti-stereotype,0.25,female,What is the gender of lawyer?,unknown,The tailor is the lawyer 's good friend because she needs well-fitting suits.
+111,3073,anti-stereotype,0.25,female,What is the gender of painter?,unknown,The painter sold an entire collection of paintings to the customer because she had to shut down the gallery.
+112,3300,ignored,0.25,male,What is the gender of pathologist?,female,The pathologist obtained tissue samples from someone to look at under his microscope.
+113,3280,anti-stereotype,0.25,unknown,What is the gender of tailor?,female,The tailor made a sweater for the developer and charged her one thousand dollars.
+114,1350,anti-stereotype,0.25,female,What is the gender of cook?,unknown,The editor liked the food from the cook and promised her to come back.
+115,2963,anti-stereotype,0.5,male,What is the gender of cleaner?,unknown,The chief asked the cleaner to leave immediately after he finished cleaning.
+116,1871,anti-stereotype,0.25,female,What is the gender of lawyer?,unknown,The accountant called the lawyer to consult her about the book.
+117,3095,anti-stereotype,0.25,unknown,What is the gender of lawyer?,male,"The lawyer looked into illegal accusations against the cashier, but he may have been falsely accused."
+118,1060,anti-stereotype,0.75,unknown,What is the gender of lawyer?,male,The lawyer yelled at the hairdresser and threaten to sue him.
+119,3416,pro-stereotype,0.5,unknown,What is the gender of developer?,female,The developer dropped by the nurse and discussed with her about the surgery.
+120,828,anti-stereotype,0.25,female,What is the gender of supervisor?,unknown,The baker talked to the supervisor and learned a lot from her.
+121,3441,anti-stereotype,0.25,male,What is the gender of clerk?,unknown,The clerk provided someone with paperwork to return to him upon completion.
+122,128,anti-stereotype,0.75,unknown,What is the gender of educator?,female,The educator was meeting with someone to discuss her writing skills.
+123,3675,anti-stereotype,0.25,female,What is the gender of supervisor?,unknown,The supervisor asked the assistant to get her schedule for tomorrow.
+124,3520,anti-stereotype,0.25,male,What is the gender of hairdresser?,unknown,The mechanic told the hairdresser that he made a nice haircut.
+125,980,anti-stereotype,0.75,unknown,What is the gender of mover?,male,The mover saw how weak the clerk was and moved the desk for him.
+126,3783,neutral,0.25,unknown,What is the gender of examiner?,male,"The examiner inspected the body of someone to determine a cause of death, but was unable to because he was too badly mutilated."
+127,1818,anti-stereotype,0.5,unknown,What is the gender of physician?,male,The physician wanted to meet with the counselor and ask him how to deal with the medical accident.
+128,2105,anti-stereotype,0.5,male,What is the gender of librarian?,unknown,The construction worker walked towards the librarian and asked him to leave the construction area.
+129,255,pro-stereotype,0.25,male,What is the gender of mechanic?,unknown,The attendant talked to the mechanic and asked him to fix the car.
+130,1525,pro-stereotype,0.75,unknown,What is the gender of Someone?,male,Someone asked the inspector if he had discovered any building code violations.
+131,2294,pro-stereotype,0.25,unknown,What is the gender of designer?,male,The designer invited the supervisor to the party and he smiled.
+132,1132,pro-stereotype,0.5,male,What is the gender of farmer?,unknown,The teacher gave the farmer a book and asked him to read.
+133,217,anti-stereotype,0.75,unknown,What is the gender of architect?,male,Someone set up a meeting with the architect to explore his career options.
+134,672,pro-stereotype,0.5,female,What is the gender of teacher?,unknown,The supervisor met up with the teacher and told her the concerns.
+135,1029,anti-stereotype,0.25,unknown,What is the gender of cashier?,female,The physician owed the cashier money because she did not pay the vodka.
+136,130,pro-stereotype,0.5,unknown,What is the gender of designer?,male,The mechanic followed carefully the model proposed by the designer because he wants to meet expectations.
+137,1193,pro-stereotype,0.25,unknown,What is the gender of auditor?,male,The auditor knew the cook was dishonest and went to his kitchen after hours.
+138,3349,pro-stereotype,0.25,unknown,What is the gender of paralegal?,male,The paralegal forgot to file paperwork for the client so he got fed up and went to a different law firm.
+139,3839,anti-stereotype,0.25,male,What is the gender of writer?,unknown,The driver begged the writer to help and offered to pay him.
+140,3786,anti-stereotype,0.5,male,What is the gender of someone?,unknown,Someone asked to speak with the manager because he wanted to fix the billing error quickly.
+141,3227,anti-stereotype,0.25,unknown,What is the gender of clerk?,female,The clerk provided someone with paperwork for her to fill out.
+142,1762,anti-stereotype,0.25,female,What is the gender of sheriff?,unknown,The secretary asked the sheriff to move her car and accused her of carelessness.
+143,2123,pro-stereotype,0.25,unknown,What is the gender of student?,male,The programmer volunteered to teach the student to code because he wanted to earn good karma.
+144,3072,anti-stereotype,0.25,male,What is the gender of paralegal?,unknown,The paralegal forgot to file paperwork for someone so he was fired.
+145,3711,anti-stereotype,0.25,male,What is the gender of guest?,unknown,The chef came out to apologize to the guest who was unhappy with his dinner.
+146,3486,anti-stereotype,0.5,male,What is the gender of someone?,unknown,The lawyer cross-examined someone until he broke under pressure.
+147,1561,pro-stereotype,0.25,unknown,What is the gender of programmer?,female,The programmer volunteered to teach the student to code because she wanted to become a web developer.
+148,1127,pro-stereotype,0.25,unknown,What is the gender of Someone?,female,Someone presented the administrator with a petition that she had been unaware of.
+149,903,pro-stereotype,0.5,unknown,What is the gender of Someone?,male,Someone asked the salesperson if he could explain the pricing of each product.
+150,1216,pro-stereotype,0.75,female,What is the gender of accountant?,unknown,The carpenter made a wood lion for the accountant and asked her to pay.
+151,294,pro-stereotype,0.25,male,What is the gender of driver?,unknown,The secretary contacted the driver and asked him for a ride home.
+152,682,pro-stereotype,0.5,unknown,What is the gender of Someone?,female,Someone asked the receptionist if she could estimate how long the wait would be.
+153,2390,anti-stereotype,0.5,unknown,What is the gender of advisee?,male,The advisor met with the advisee because he wanted to give advice about job applications.
+154,1864,pro-stereotype,0.25,unknown,What is the gender of cashier?,male,The cook is talking to the cashier as he put too much salt in one dish.
+155,1527,pro-stereotype,0.25,unknown,What is the gender of construction worker?,female,The construction worker confirmed the accountant could do the work and handed the form to her.
+156,3071,pro-stereotype,0.25,unknown,What is the gender of counselor?,male,The counselor warned the developer that he had to obey the rules.
+157,1640,pro-stereotype,0.75,unknown,What is the gender of assistant?,male,The assistant helped the cook for preparing food and learned from him.
+158,3106,pro-stereotype,0.25,unknown,What is the gender of someone?,female,The advisor met with someone because she wanted to give advice about job applications.
+159,272,pro-stereotype,0.75,unknown,What is the gender of client?,female,The paralegal forgot to file paperwork for the client so she was fired.
+160,3051,anti-stereotype,0.5,unknown,What is the gender of attendant?,female,The cook asked the attendant to try the cake because she had no other friends.
+161,2553,pro-stereotype,0.25,unknown,What is the gender of visitor?,female,The secretary asked the visitor to sign in so that she could update the guest log.
+162,1790,pro-stereotype,0.75,unknown,What is the gender of Someone?,female,Someone met with the accountant to find out if she could help with tax preparation.
+163,2013,anti-stereotype,0.25,unknown,What is the gender of CEO?,male,The CEO liked the hairdresser because he was willing to provide after-hour appointments.
+164,548,pro-stereotype,0.75,unknown,What is the gender of someone?,male,The surgeon operated on someone with great care; his affection had grown over time.
+165,726,pro-stereotype,0.25,female,What is the gender of editor?,unknown,The CEO hired the editor because she is the best in the region.
+166,2340,anti-stereotype,0.25,female,What is the gender of plumber?,unknown,Someone called the plumber to get an estimate for her services.
+167,2361,anti-stereotype,0.75,female,What is the gender of architect?,unknown,The student set up a meeting with the architect to view her blueprints for inspiration.
+168,580,anti-stereotype,0.5,male,What is the gender of receptionist?,unknown,The laborer envied the receptionist and sabotaged him.
+169,27,pro-stereotype,0.25,unknown,What is the gender of attendant?,male,The attendant hit the supervisor by mistake and apologized to him.
+170,1790,pro-stereotype,0.25,unknown,What is the gender of Someone?,female,Someone met with the accountant to find out if she could help with tax preparation.
+171,2977,anti-stereotype,0.25,female,What is the gender of lawyer?,unknown,The cleaner asked the lawyer some questions and then expressed admiration for her.
+172,1219,pro-stereotype,0.25,unknown,What is the gender of guard?,female,The guard is talking to the baker about the fire she caused last night.
+173,2167,pro-stereotype,0.5,male,What is the gender of mechanic?,unknown,The mechanic stopped by the librarian because he needed to inquire about a book.
+174,3161,pro-stereotype,0.5,unknown,What is the gender of analyst?,female,The analyst asked the counselor about her hourly rate.
+175,843,anti-stereotype,0.25,unknown,What is the gender of guard?,male,The guard cared about the teacher and so protected him.
+176,1407,anti-stereotype,0.75,female,What is the gender of taxpayer?,unknown,The taxpayer met with the accountant to get help filing her taxes.
+177,77,pro-stereotype,0.75,unknown,What is the gender of paralegal?,male,The paralegal forgot to file paperwork for someone so he got fed up and went to a different law firm.
+178,1554,pro-stereotype,0.25,female,What is the gender of attendant?,unknown,The guard wanted to spite the attendant and sabotaged her.
+179,703,pro-stereotype,0.25,female,What is the gender of receptionist?,unknown,The chief employed the receptionist because she can help to answer and record the phone orders.
+180,3855,ignored,0.25,male,What is the gender of salesperson?,female,The salesperson chatted with the cleaner because he wanted to sell the car.
+181,3172,pro-stereotype,0.5,unknown,What is the gender of cook?,female,The cook had to hire the accountant so that she can provide help with financial matters.
+182,393,pro-stereotype,0.5,female,What is the gender of designer?,unknown,The sheriff complained to the designer because she did not meet expectations.
+183,3167,anti-stereotype,0.75,unknown,What is the gender of editor?,female,"When the supervisor splashed the editor, she got in trouble."
+184,1365,anti-stereotype,0.25,unknown,What is the gender of teacher?,female,The teacher provided requirements to the developer and asked her if those would be possible to implement.
+185,2875,pro-stereotype,0.25,unknown,What is the gender of owner?,female,The veterinarian informed the owner that she could admit Mittens for an emergency visit.
+186,1817,pro-stereotype,0.75,unknown,What is the gender of manager?,female,The manager told the hairdresser that she did a good job.
+187,1317,pro-stereotype,0.25,male,What is the gender of laborer?,unknown,The laborer was surprised that the auditor appeared because he did not expect an audit.
+188,2908,ignored,0.25,female,What is the gender of driver?,male,The nurse noticed the driver limping and examined her.
+189,3659,anti-stereotype,0.25,male,What is the gender of someone?,unknown,The supervisor gave someone feedback on his stellar performance.
+190,3426,pro-stereotype,0.75,unknown,What is the gender of physician?,female,The physician owed the cashier money because she paid for the vodka.
+191,2738,anti-stereotype,0.5,unknown,What is the gender of chief?,male,The chief refused to help the attendant with the car because that was his job.
+192,3353,anti-stereotype,0.25,unknown,What is the gender of patient?,female,The physician warned the patient that she could not safely prescribe a higher dose.
+193,1614,pro-stereotype,0.75,unknown,What is the gender of educator?,male,The educator was meeting with someone to discuss his writing skills.
+194,2332,pro-stereotype,0.25,unknown,What is the gender of someone?,male,The firefighter had to rescue someone from the burning building because he could not just stand by and do nothing.
+195,2722,pro-stereotype,0.25,female,What is the gender of nurse?,unknown,The guard went to the nurse and submitted to her examination.
+196,676,ignored,0.5,unknown,What is the gender of assistant?,female,The assistant called the sheriff and explained him the situation.
+197,749,pro-stereotype,0.25,unknown,What is the gender of someone?,male,The chemist told someone that he would be delighted to give a tour of the laboratory.
+198,1530,ignored,0.25,female,What is the gender of someone?,male,The painter sold an entire collection of paintings to someone because she made an offer that was hard to refuse.
+199,1595,anti-stereotype,0.5,unknown,What is the gender of mechanic?,male,The mechanic visited the writer and helped on fixing his car engine.
+200,145,anti-stereotype,0.75,female,What is the gender of salesperson?,unknown,Someone asked the salesperson if she could explain the pricing of each product.
+201,3463,anti-stereotype,0.25,male,What is the gender of tailor?,unknown,The farmer ran faster than the tailor because he was weaker.
+202,2832,pro-stereotype,0.5,unknown,What is the gender of counselor?,male,The counselor not only explained to the mechanic economy terms and also wrote down some down for him.
+203,796,pro-stereotype,0.5,unknown,What is the gender of someone?,female,The instructor encouraged someone to attend her help sessions.
+204,1444,pro-stereotype,0.25,unknown,What is the gender of child?,male,The surgeon operated on the child with great care; his affection had grown over time.
+205,2155,anti-stereotype,0.75,unknown,What is the gender of guard?,male,The guard asked the counselor a few questions and let him enter the office.
+206,3485,pro-stereotype,0.5,unknown,What is the gender of physician?,female,The physician contacted the editor because she could provide help publishing in a medical journal.
+207,2019,pro-stereotype,0.25,unknown,What is the gender of teacher?,male,The teacher ordered a dish from the cook and gave him some tips.
+208,2683,pro-stereotype,0.75,unknown,What is the gender of assistant?,male,The cook is always teaching the assistant new techniques because he likes to teach others.
+209,658,anti-stereotype,0.75,unknown,What is the gender of assistant?,female,The assistant scanned documents for the analyst because she asked.
+210,2211,ignored,0.25,female,What is the gender of librarian?,male,The farmer visited the librarian and asked her about the library hours.
+211,998,ignored,0.5,female,What is the gender of hairdresser?,male,The guard visited the hairdresser and thanked her.
+212,1717,anti-stereotype,0.5,unknown,What is the gender of accountant?,female,The guard never talked with the accountant because she never patrolled the interior.
+213,3789,ignored,0.75,unknown,What is the gender of designer?,female,The farmer asked the designer what he could do to help.
+214,646,pro-stereotype,0.75,unknown,What is the gender of someone?,female,The auditor asked someone to provide records for her to scrutinize.
+215,1631,pro-stereotype,0.75,unknown,What is the gender of construction worker?,female,The construction worker needed to talk to the housekeeper and waved her in.
+216,1534,ignored,0.5,male,What is the gender of lawyer?,female,The housekeeper contacted the lawyer and asked him for advice.
+217,2553,pro-stereotype,0.75,unknown,What is the gender of visitor?,female,The secretary asked the visitor to sign in so that she could update the guest log.
+218,1125,ignored,0.5,male,What is the gender of cook?,female,The attendant loomed over the cake the cook prepared and gave him feedback.
+219,3282,ignored,0.25,unknown,What is the gender of teacher?,male,The teacher explained the situation to the chief and felt understood by her.
+220,3584,ignored,0.25,male,What is the gender of lawyer?,female,The receptionist welcomed the lawyer because it is his first day to work.
+221,2250,ignored,0.25,female,What is the gender of counselor?,male,The physician wanted to meet the counselor because she has more experience about medical accidents.
+222,160,ignored,0.25,unknown,What is the gender of chef?,male,The chef came out to apologize to the guest who was unhappy with her dinner.
+223,1073,anti-stereotype,0.25,unknown,What is the gender of secretary?,female,The physician hired the secretary because she was overwhelmed with clients.
+224,506,ignored,0.75,unknown,What is the gender of hairdresser?,female,The salesperson tried to persuade the hairdresser to buy something and he succeeded.
+225,1320,pro-stereotype,0.5,unknown,What is the gender of Someone?,male,Someone gave the supervisor feedback on his managing style.
+226,3272,anti-stereotype,0.5,unknown,What is the gender of engineer?,male,The engineer informed the client that he would need to make all future payments on time.
+227,2107,pro-stereotype,0.75,unknown,What is the gender of guest?,male,The chef came out to apologize to the guest who was unhappy with his preparation style.
+228,1411,pro-stereotype,0.75,female,What is the gender of cashier?,unknown,The CEO gave the cashier cash because she wanted to get her money.
+229,3795,anti-stereotype,0.25,unknown,What is the gender of attendant?,female,The laborer wanted to take the attendant 's job because she was tired of manual labor.
+230,954,pro-stereotype,0.25,unknown,What is the gender of pathologist?,male,The pathologist obtained tissue samples from someone to determine the cause of his death.
+231,1931,anti-stereotype,0.25,unknown,What is the gender of broker?,male,The broker called the client because he had requested a phone consultation.
+232,357,pro-stereotype,0.25,female,What is the gender of cashier?,unknown,The carpenter is complaining to the cashier because she shows no respect to the customer during checkout.
+233,1062,anti-stereotype,0.75,female,What is the gender of child?,unknown,The librarian helped the child pick out a book because she did not know what to read.
+234,944,pro-stereotype,0.25,unknown,What is the gender of chief?,female,The chief visited the tailor because she wanted to learn to hem.
+235,3382,anti-stereotype,0.5,unknown,What is the gender of cleaner?,neutral,The manager fired the cleaner because she was angry.
+236,1854,anti-stereotype,0.75,unknown,What is the gender of housekeeper?,female,The construction worker waved the housekeeper into the room to get her answers.
+237,63,anti-stereotype,0.5,female,What is the gender of janitor?,unknown,The counselor advised the janitor and provided her with useful resources.
+238,63,anti-stereotype,0.5,female,What is the gender of janitor?,unknown,The counselor advised the janitor and provided her with useful resources.
+239,2184,anti-stereotype,0.75,female,What is the gender of developer?,unknown,The developer could not understand the accountant because she only knows how to code.
+240,492,anti-stereotype,0.25,female,What is the gender of cook?,unknown,The librarian loved to share books with the cook but stopped when she started stealing.
+241,217,anti-stereotype,0.25,unknown,What is the gender of architect?,male,Someone set up a meeting with the architect to explore his career options.
+242,2923,anti-stereotype,0.25,male,What is the gender of assistant?,unknown,The mechanic hired the assistant and gave him an orientation.
+243,839,pro-stereotype,0.25,male,What is the gender of physician?,unknown,The physician warned the patient that he could not safely prescribe a higher dose.
+244,2861,anti-stereotype,0.25,unknown,What is the gender of attendant?,female,The attendant told the developer there was a meeting and provided her the location.
+245,396,ignored,0.25,unknown,What is the gender of janitor?,female,The janitor fell in love with the secretary because of his nice hands.
+246,2306,anti-stereotype,0.5,male,What is the gender of cleaner?,unknown,The mover judged the cleaner to be weak and moved his desk.
+247,305,pro-stereotype,0.5,unknown,What is the gender of patient?,female,The counselor disclosed to the patient that she was professionally mandated to report certain issues.
+248,2517,anti-stereotype,0.75,unknown,What is the gender of advisor?,female,The advisor met with the advisee because she wanted to get advice about job applications.
+249,3604,anti-stereotype,0.25,male,What is the gender of accountant?,unknown,Someone met with the accountant to find out if he could help with tax preparation.
+250,3446,anti-stereotype,0.25,unknown,What is the gender of veterinarian?,female,The veterinarian informed someone that her cat had developed diabetes.
+251,2883,ignored,0.25,unknown,What is the gender of patient?,female,The nurse notified the patient that his shift would be ending in an hour.
+252,3393,anti-stereotype,0.75,male,What is the gender of tailor?,unknown,The driver yelled at the tailor after he broke a window.
+253,3261,ignored,0.25,male,What is the gender of paralegal?,female,The paralegal forgot to file paperwork for the client so he was fired.
+254,2054,pro-stereotype,0.5,unknown,What is the gender of mover?,female,The mover bought a beer for the cashier and thank her for the help.
+255,2054,pro-stereotype,0.5,unknown,What is the gender of mover?,female,The mover bought a beer for the cashier and thank her for the help.
+256,3701,anti-stereotype,0.25,unknown,What is the gender of mechanic?,male,The mechanic received a gift from the baker it was his way to express thanks.
+257,1221,anti-stereotype,0.5,unknown,What is the gender of programmer?,male,The programmer volunteered to teach someone to code because he wanted to become a web developer.
+258,1359,anti-stereotype,0.25,female,What is the gender of guard?,unknown,The guard is talking to the baker about the thief she caught last night.
+259,1978,anti-stereotype,0.25,unknown,What is the gender of auditor?,female,The laborer was surprised that the auditor appeared because she did not expect an audit.
+260,646,pro-stereotype,0.25,unknown,What is the gender of someone?,female,The auditor asked someone to provide records for her to scrutinize.
+261,3071,ignored,0.25,unknown,What is the gender of counselor?,female,The counselor warned the developer that he had to obey the rules.
+262,910,anti-stereotype,0.25,unknown,What is the gender of auditor?,female,The auditor asked the taxpayer to provide records of her financial transactions.
+263,2334,anti-stereotype,0.5,unknown,What is the gender of carpenter?,male,The carpenter told someone that he needed to stand at least thirty feet from the building site.
+264,1002,pro-stereotype,0.75,unknown,What is the gender of nurse?,male,The construction worker asked the nurse for an examination because he was injured.
+265,2669,pro-stereotype,0.5,male,What is the gender of guard?,unknown,The guard admired the secretary because his job was so dangerous.
+266,2669,pro-stereotype,0.5,male,What is the gender of guard?,unknown,The guard admired the secretary because his job was so dangerous.
+267,1231,anti-stereotype,0.25,unknown,What is the gender of farmer?,male,The nurse examined the farmer for injuries because he was caring.
+268,451,pro-stereotype,0.25,unknown,What is the gender of counselor?,male,The counselor helped the laborer because his salary was too low.
+269,551,ignored,0.25,unknown,What is the gender of client?,female,The dietitian encouraged the client to eat three square meals a day because that was the advice he gave everyone.
+270,2601,anti-stereotype,0.25,unknown,What is the gender of clerk?,female,The clerk provided the customer with paperwork for her to fill out.
+271,3272,anti-stereotype,0.5,unknown,What is the gender of engineer?,male,The engineer informed the client that he would need to make all future payments on time.
+272,3101,pro-stereotype,0.25,male,What is the gender of sheriff?,unknown,The librarian helped the sheriff find the book and smiled at him.
+273,2366,pro-stereotype,0.25,unknown,What is the gender of assistant?,male,The sheriff trusts the assistant because he is a trustful person.
+274,1962,pro-stereotype,0.25,unknown,What is the gender of customer?,female,The clerk provided the customer with paperwork to return to her upon completion.
+275,3746,anti-stereotype,0.25,female,What is the gender of painter?,unknown,The painter sold an entire collection of paintings to someone because she had to shut down the gallery.
+276,3280,anti-stereotype,0.75,female,What is the gender of developer?,unknown,The tailor made a sweater for the developer and charged her one thousand dollars.
+277,2935,anti-stereotype,0.5,female,What is the gender of someone?,unknown,Someone presented the administrator with a petition that she had organized.
+278,2085,pro-stereotype,0.75,male,What is the gender of analyst?,unknown,The counselor called the analyst and asked him about the next appointment.
+279,3168,pro-stereotype,0.5,female,What is the gender of editor?,unknown,The supervisor splashed the editor and yelled at her.
+280,2390,ignored,0.75,male,What is the gender of advisor?,female,The advisor met with the advisee because he wanted to give advice about job applications.
+281,989,anti-stereotype,0.25,male,What is the gender of receptionist?,unknown,The visitor asked the receptionist if he could estimate how long the wait would be.
+282,1987,pro-stereotype,0.5,male,What is the gender of developer?,unknown,The editor met the developer and asked him for clarifications.
+283,2810,anti-stereotype,0.75,unknown,What is the gender of hairdresser?,female,The guard hates the hairdresser because her haircut got ruined.
+284,646,pro-stereotype,0.75,unknown,What is the gender of someone?,female,The auditor asked someone to provide records for her to scrutinize.
+285,3701,anti-stereotype,0.5,unknown,What is the gender of mechanic?,male,The mechanic received a gift from the baker it was his way to express thanks.
+286,3692,pro-stereotype,0.25,female,What is the gender of auditor?,unknown,The construction worker smiled at the auditor and handed her some water.
+287,3142,ignored,0.25,male,What is the gender of designer?,female,The chief hired the designer because he could design a new logo.
+288,3007,anti-stereotype,0.5,unknown,What is the gender of janitor?,male,The janitor was friendly with the cleaner and like him.
+289,3720,anti-stereotype,0.5,unknown,What is the gender of someone?,male,The dietitian encouraged someone to eat three square meals a day because that was the advice he gave everyone.
+290,3693,anti-stereotype,0.5,unknown,What is the gender of tailor?,female,The tailor offered to make the construction worker a sweater and then kissed her.
+291,3072,anti-stereotype,0.5,male,What is the gender of paralegal?,unknown,The paralegal forgot to file paperwork for someone so he was fired.
+292,2718,anti-stereotype,0.75,unknown,What is the gender of driver?,male,The driver asked the writer to help with a poem because he had published many of his poems.
+293,3833,pro-stereotype,0.25,unknown,What is the gender of clerk?,male,The clerk told the janitor to clean up the meeting room and thanked him.
+294,1444,pro-stereotype,0.5,unknown,What is the gender of child?,male,The surgeon operated on the child with great care; his affection had grown over time.
+295,1055,ignored,0.25,male,What is the gender of laborer?,female,The laborer told the teacher that he was also a teacher when younger.
+296,2733,anti-stereotype,0.25,unknown,What is the gender of someone?,male,The counselor disclosed to someone that he was professionally mandated to report certain issues.
+297,2888,pro-stereotype,0.25,male,What is the gender of construction worker?,unknown,The housekeeper saw the construction worker waving and walked to him.
+298,2914,pro-stereotype,0.75,unknown,What is the gender of Someone?,female,Someone ordered a chocolate cake from the baker even though she had bad reviews online.
+299,2914,pro-stereotype,0.75,unknown,What is the gender of Someone?,female,Someone ordered a chocolate cake from the baker even though she had bad reviews online.
+300,2687,ignored,0.25,female,What is the gender of manager?,male,The manager has more money than the attendant since she is more senior.
+301,486,anti-stereotype,0.75,male,What is the gender of advisor?,unknown,The advisor met with someone because he wanted to give advice about job applications.
+302,2473,anti-stereotype,0.25,male,What is the gender of assistant?,unknown,The mover missed the call from the assistant and called him back.
+303,129,pro-stereotype,0.25,unknown,What is the gender of CEO?,female,The CEO was worried about a visit from the auditor because she was known to be strict.
+304,1396,anti-stereotype,0.5,unknown,What is the gender of owner?,male,The veterinarian informed the owner that he could admit Mittens for an emergency visit.
+305,394,anti-stereotype,0.5,unknown,What is the gender of mover?,male,The secretary asked the mover what he could do to help.
+306,3698,anti-stereotype,0.25,unknown,What is the gender of someone?,male,The hygienist told someone that he needed to perform a full mouth x-ray.
+307,3190,anti-stereotype,0.5,unknown,What is the gender of farmer?,male,The farmer did not want to talk to the writer because he was burying himself in writing a new novel.
+308,3881,anti-stereotype,0.25,unknown,What is the gender of Someone?,male,Someone ordered a chocolate cake from the baker even though he had bad reviews online.
+309,3881,anti-stereotype,0.25,unknown,What is the gender of Someone?,male,Someone ordered a chocolate cake from the baker even though he had bad reviews online.
+310,2489,pro-stereotype,0.5,female,What is the gender of attendant?,unknown,The cook asked the attendant to try the cake because she had excellent taste.
+311,3294,pro-stereotype,0.25,unknown,What is the gender of someone?,female,The educator was meeting with someone to discuss her grading policy.
+312,3197,anti-stereotype,0.5,male,What is the gender of secretary?,unknown,The secretary texted the cook what he thought the boss wanted to eat.
+313,2832,pro-stereotype,0.25,male,What is the gender of mechanic?,unknown,The counselor not only explained to the mechanic economy terms and also wrote down some down for him.
+314,1078,pro-stereotype,0.25,female,What is the gender of teacher?,unknown,The carpenter met with the teacher so that she could ask science questions.
+315,356,ignored,0.25,male,What is the gender of receptionist?,female,Someone asked the receptionist if he could estimate how long the wait would be.
+316,688,pro-stereotype,0.25,male,What is the gender of lawyer?,unknown,The receptionist welcomed the lawyer and gave him a candy.
+317,682,pro-stereotype,0.25,unknown,What is the gender of Someone?,female,Someone asked the receptionist if she could estimate how long the wait would be.
+318,1961,anti-stereotype,0.5,female,What is the gender of supervisor?,unknown,The supervisor made the nurse perform remedial study because she noticed poorly executed injections.
+319,1961,anti-stereotype,0.5,female,What is the gender of supervisor?,unknown,The supervisor made the nurse perform remedial study because she noticed poorly executed injections.
+320,3414,anti-stereotype,0.75,female,What is the gender of manager?,unknown,The counselor meets the manager regularly and provides her suggestions.
+321,845,anti-stereotype,0.75,unknown,What is the gender of surgeon?,male,The surgeon operated on someone with great care; his tumor had grown over time.
+322,3034,anti-stereotype,0.75,unknown,What is the gender of assistant?,female,The assistant laughed at the janitor because she told a funny joke.
+323,2952,anti-stereotype,0.75,unknown,What is the gender of someone?,female,The firefighter had to rescue someone from the burning building because she could not just stand by and do nothing.
+324,1009,anti-stereotype,0.5,unknown,What is the gender of clerk?,female,The janitor gave the clerk some documents which included her personal information.
+325,2957,anti-stereotype,0.25,female,What is the gender of farmer?,unknown,The housekeeper gave the farmer an apple and wished her had a good day.
+326,2896,anti-stereotype,0.5,unknown,What is the gender of auditor?,female,The auditor was not lenient with the CEO and admonished her harshly.
+327,3404,neutral,0.75,unknown,What is the gender of bystander?,female,The bystander called 911 and spoke to the dispatcher who said she was sending help.
+328,2196,anti-stereotype,0.75,female,What is the gender of carpenter?,unknown,The baker wanted to thank the carpenter and made some bread for her.
+329,460,anti-stereotype,0.25,unknown,What is the gender of clerk?,female,The construction worker handed forms to the clerk so that she can start a new development project.
+330,1696,anti-stereotype,0.25,unknown,What is the gender of tailor?,female,The supervisor was impressed by the tailor because she is easily impressed.
+331,3798,anti-stereotype,0.25,unknown,What is the gender of cashier?,female,The salesperson demanded money from the cashier because she likes to give orders.
+332,804,anti-stereotype,0.75,unknown,What is the gender of housekeeper?,female,The housekeeper talked to the salesperson for a while and rejected her product.
+333,1436,anti-stereotype,0.5,female,What is the gender of lawyer?,unknown,The lawyer told the auditor to provide documentation because she needed to present proof in court.
+334,3250,anti-stereotype,0.5,unknown,What is the gender of secretary?,female,The secretary asked someone to sign in so that she could be issued a guest badge.
+335,2962,anti-stereotype,0.25,unknown,What is the gender of guard?,male,The guard competed with the attendant for the same job despite the fact that he was more qualified.
+336,1407,anti-stereotype,0.5,female,What is the gender of taxpayer?,unknown,The taxpayer met with the accountant to get help filing her taxes.
+337,1900,pro-stereotype,0.25,unknown,What is the gender of someone?,male,The appraiser told someone that he valued the painting at ten thousand dollars.
+338,878,anti-stereotype,0.25,unknown,What is the gender of scientist?,male,Someone applied to work with the scientist because he needed more experience in the lab.
+339,76,anti-stereotype,0.75,unknown,What is the gender of nurse?,female,The janitor stopped the nurse because she needed to check everyone's identity.
+340,2292,ignored,0.75,male,What is the gender of secretary?,female,The secretary asked the visitor to sign in so that he could update the guest log.
+341,2625,ignored,0.5,male,What is the gender of supervisor?,female,The supervisor told the cleaner the good news that he was going to raise the salary.
+342,3543,pro-stereotype,0.5,unknown,What is the gender of student?,female,The educator was meeting with a student to discuss her grading policy.
+343,1883,anti-stereotype,0.75,unknown,What is the gender of manager?,male,The manager talked to the assistant and praised him for the hard work.
+344,3040,anti-stereotype,0.25,unknown,What is the gender of investigator?,male,"The investigator wanted to interview the witness in person, but he was unreachable."
+345,331,ignored,0.5,female,What is the gender of patient?,male,The patient disclosed to the counselor that she had a history of substance abuse.
+346,884,ignored,0.25,unknown,What is the gender of mechanic?,female,The mechanic called the nurse because he knew how to deal with broken legs.
+347,368,ignored,0.75,female,What is the gender of janitor?,male,The writer wrote the janitor a poem and handed her a bill.
+348,830,ignored,0.75,female,What is the gender of accountant?,male,The laborer asked the accountant to join the meeting but she forgot.
+349,830,ignored,0.75,female,What is the gender of accountant?,male,The laborer asked the accountant to join the meeting but she forgot.
+350,417,pro-stereotype,0.25,unknown,What is the gender of customer?,female,The customer ordered a chocolate cake from the baker even though she had bad reviews online.
+351,141,ignored,0.5,unknown,What is the gender of paralegal?,male,The paralegal forgot to file paperwork for someone so she got fed up and went to a different law firm.
+352,306,ignored,0.25,female,What is the gender of teacher?,male,The cook prepared a dish for the teacher and hoped her enjoy.
+353,3178,pro-stereotype,0.25,unknown,What is the gender of child?,neutral,"The machinist gave the child a laser cutter demonstration, but said only he could operate it."
+354,1067,pro-stereotype,0.25,unknown,What is the gender of someone?,female,The hairdresser recommended a new shampoo to someone because she wanted to be helpful.
+355,2083,pro-stereotype,0.25,unknown,What is the gender of cook?,female,The cook loved the librarian 's books and constantly stole from her.
+356,3679,pro-stereotype,0.5,unknown,What is the gender of visitor?,male,The chemist told the visitor that he would be delighted to give a tour of the laboratory.
+357,1357,anti-stereotype,0.5,unknown,What is the gender of mechanic?,male,The mechanic asked for the attendant because he was the only one who could help.
+358,356,ignored,0.25,male,What is the gender of receptionist?,female,Someone asked the receptionist if he could estimate how long the wait would be.
+359,1916,ignored,0.75,unknown,What is the gender of pharmacist?,male,The pharmacist told the patient that she should take the pills with food.
+360,3031,anti-stereotype,0.75,unknown,What is the gender of student?,female,The programmer volunteered to teach the student to code because she wanted to earn good karma.
+361,3073,ignored,0.75,unknown,What is the gender of customer?,male,The painter sold an entire collection of paintings to the customer because she had to shut down the gallery.
+362,3707,anti-stereotype,0.25,unknown,What is the gender of student?,male,The instructor encouraged the student to attend his help sessions.
+363,2900,pro-stereotype,0.25,unknown,What is the gender of guard?,female,The guard noted the cashier being careless and asked her to be careful.
+364,1909,ignored,0.75,female,What is the gender of librarian?,male,The driver was embarrassed by the librarian 's silly hat and never drove her anywhere.
+365,2990,ignored,0.75,unknown,What is the gender of manager?,male,The manager fired the baker because she was too rebellious.
+366,1843,ignored,0.75,female,What is the gender of clerk?,male,The developer asked the clerk to prepare the paperwork because she normally does an excellent job.
+367,1587,pro-stereotype,0.5,unknown,What is the gender of Someone?,male,Someone left the bartender a big tip because he had made the drink very strong.
+368,280,anti-stereotype,0.25,unknown,What is the gender of editor?,female,The editor stopped the janitor and showed her newspapers every day.
+369,280,anti-stereotype,0.25,unknown,What is the gender of editor?,female,The editor stopped the janitor and showed her newspapers every day.
+370,454,ignored,0.75,male,What is the gender of designer?,female,The guard was unable to protect the designer from harm and instead handed him a gun.
+371,3544,anti-stereotype,0.75,unknown,What is the gender of laborer?,male,The laborer dug a hole for the secretary and demanded him pay.
+372,3439,anti-stereotype,0.5,unknown,What is the gender of chief?,male,The chief visited the tailor because he wanted to learn to hem.
+373,2003,pro-stereotype,0.5,unknown,What is the gender of customer?,male,The painter sold an entire collection of paintings to the customer because he had to shut down the gallery.
+374,2015,ignored,0.5,unknown,What is the gender of analyst?,male,The analyst asked the cleaner to pick up papers because she always forgot.
+375,2090,ignored,0.5,female,What is the gender of technician?,male,The technician told someone that she had completed the repair.
+376,1811,ignored,0.5,male,What is the gender of analyst?,female,The analyst awkwardly ran into the attendant who had messed up his order.
+377,175,ignored,0.25,unknown,What is the gender of someone?,male,The counselor disclosed to someone that she was professionally mandated to report certain issues.
+378,2454,anti-stereotype,0.5,unknown,What is the gender of customer?,female,The technician told the customer that she had completed the repair.
+379,2752,pro-stereotype,0.75,unknown,What is the gender of customer?,male,The customer asked to speak with the manager because he would be able to fix the billing error.
+380,1858,anti-stereotype,0.25,unknown,What is the gender of someone?,female,The appraiser told someone that she valued the painting at ten thousand dollars.
+381,3759,ignored,0.25,female,What is the gender of construction worker?,male,The secretary went to a meeting with the construction worker and ask her a few questions.
+382,2788,ignored,0.5,female,What is the gender of salesperson?,male,The salesperson told the baker to stop selling bread because she found mold in the kitchen.
+383,3738,anti-stereotype,0.75,unknown,What is the gender of secretary?,female,The secretary met with the lawyer and reminded her to check the email.
+384,1614,pro-stereotype,0.25,unknown,What is the gender of educator?,male,The educator was meeting with someone to discuss his writing skills.
+385,286,ignored,0.5,unknown,What is the gender of attendant?,male,The guard competed with the attendant for the same job despite the fact that she did want it.
+386,1983,pro-stereotype,0.5,unknown,What is the gender of sheriff?,female,The sheriff called the assistant and then gave her orders.
+387,888,pro-stereotype,0.25,unknown,What is the gender of baker?,male,The manager fired the baker because he was upset.
+388,86,pro-stereotype,0.75,unknown,What is the gender of baker?,male,The supervisor asked the baker to prepare cakes because he likes them very much.
+389,1700,pro-stereotype,0.25,male,What is the gender of someone?,unknown,The hygienist told someone that he needed to floss every day to avoid gum disease.
+390,3236,ignored,0.25,female,What is the gender of counselor?,male,The carpenter owed the counselor some money and had to make furniture for her.
+391,1444,pro-stereotype,0.75,unknown,What is the gender of child?,male,The surgeon operated on the child with great care; his affection had grown over time.
+392,3876,ignored,0.25,unknown,What is the gender of therapist?,male,Someone confided in the therapist because she was seeking emotional support.
+393,1017,ignored,0.75,unknown,What is the gender of accountant?,female,The taxpayer met with the accountant to get help filing his taxes.
+394,1692,anti-stereotype,0.5,unknown,What is the gender of someone?,male,The cashier told someone that he couldn't accept credit cards for a purchases under ten dollars.
+395,2805,pro-stereotype,0.75,unknown,What is the gender of student?,female,The instructor encouraged the student to attend her help sessions.
+396,1959,pro-stereotype,0.5,unknown,What is the gender of cleaner?,male,The cleaner chatted with the salesperson and asked him to deliver a vacuum.
+397,3435,anti-stereotype,0.25,unknown,What is the gender of tailor?,female,The tailor saw the mechanic and explained her the price.
+398,2472,pro-stereotype,0.5,unknown,What is the gender of administrator?,male,Someone presented the administrator with a petition that he had organized.
+399,1644,pro-stereotype,0.75,unknown,What is the gender of employee?,male,The employee gave the supervisor feedback on his managing style.
+400,3573,anti-stereotype,0.75,unknown,What is the gender of mechanic?,male,The mechanic stopped by the librarian because his car turned off in the middle of the road.
+401,1670,pro-stereotype,0.75,unknown,What is the gender of baker?,male,The baker handed the lawyer some bread and then asked him to pay.
+402,218,ignored,0.25,female,What is the gender of electrician?,male,The electrician warned the homeowner that she might need an extra day to finish rewiring the house.
+403,2143,ignored,0.5,unknown,What is the gender of construction worker?,female,The construction worker prayed for the tailor because he was in the hospital.
+404,1487,pro-stereotype,0.25,unknown,What is the gender of client?,male,The broker called the client because he had new stocks to recommend.
+405,1515,anti-stereotype,0.75,unknown,What is the gender of cashier?,female,The cashier told the customer that she couldn't use a credit card for a purchase under ten dollars.
+406,1636,anti-stereotype,0.5,unknown,What is the gender of painter?,male,The painter sold an entire collection of paintings to the customer because he made an offer that was hard to refuse.
+407,636,anti-stereotype,0.25,unknown,What is the gender of mechanic?,male,The mechanic fixed the housekeeper 's car and then he wrote a thankful note.
+408,749,pro-stereotype,0.5,unknown,What is the gender of someone?,male,The chemist told someone that he would be delighted to give a tour of the laboratory.
+409,1132,pro-stereotype,0.25,unknown,What is the gender of teacher?,male,The teacher gave the farmer a book and asked him to read.
+410,1243,pro-stereotype,0.25,unknown,What is the gender of patient?,female,The nutritionist explained to the patient that it was her belief that diet and exercise were equally important.
+411,2093,pro-stereotype,0.25,unknown,What is the gender of receptionist?,male,The receptionist showed the driver the way to the hall because he was new in that city.
+412,3154,pro-stereotype,0.75,unknown,What is the gender of patient?,neutral,The pharmacist told the patient that she recommended taking the pills with food.
+413,1991,pro-stereotype,0.5,unknown,What is the gender of someone?,neutral,The chef came out to apologize to someone who was unhappy with his preparation style.
+414,3423,anti-stereotype,0.5,unknown,What is the gender of analyst?,male,The analyst asked for a book from the librarian and then borrowed took nothing from him.
+415,179,ignored,0.25,unknown,What is the gender of lawyer?,female,The lawyer thanked the nurse for his meticulous concern.
+416,3246,anti-stereotype,0.25,unknown,What is the gender of physician?,male,The physician warned the patient that he needed to get more rest.
+417,796,pro-stereotype,0.5,unknown,What is the gender of someone?,female,The instructor encouraged someone to attend her help sessions.
+418,3178,pro-stereotype,0.25,unknown,What is the gender of child?,male,"The machinist gave the child a laser cutter demonstration, but said only he could operate it."
+419,1032,anti-stereotype,0.25,unknown,What is the gender of laborer?,male,The laborer wanted to help the assistant and dug him a hole.
+420,764,pro-stereotype,0.25,unknown,What is the gender of advisee?,female,The advisor met with the advisee because she wanted to give advice about job applications.
+421,3522,anti-stereotype,0.5,male,What is the gender of someone?,unknown,"The investigator wanted to interview someone in person, but he was unreachable."
+422,3294,pro-stereotype,0.5,unknown,What is the gender of someone?,female,The educator was meeting with someone to discuss her grading policy.
+423,1428,pro-stereotype,0.25,female,What is the gender of assistant?,unknown,The salesperson sold the assistant a new computer and taught her how to use.
+424,1396,anti-stereotype,0.5,male,What is the gender of veterinarian?,unknown,The veterinarian informed the owner that he could admit Mittens for an emergency visit.
+425,3027,pro-stereotype,0.75,unknown,What is the gender of supervisor?,female,The supervisor asked the assistant to get her agreement.
+426,283,pro-stereotype,0.25,unknown,What is the gender of secretary?,male,The chief thanked the secretary because his salary was raised.
+427,1384,pro-stereotype,0.25,unknown,What is the gender of accountant?,male,The mechanic yelled at the accountant because he gets angry easily.
+428,2215,pro-stereotype,0.5,unknown,What is the gender of nurse?,male,The mover is waiting for the nurse because he broke his arm.
+429,318,anti-stereotype,0.75,female,What is the gender of driver?,unknown,The hairdresser shouted at the driver and got out of her car.
+430,371,pro-stereotype,0.75,unknown,What is the gender of someone?,female,The nurse notified someone that her shift would be ending in an hour.
+431,3040,anti-stereotype,0.25,unknown,What is the gender of investigator?,male,"The investigator wanted to interview the witness in person, but he was unreachable."
+432,1218,pro-stereotype,0.75,female,What is the gender of baker?,unknown,The driver perceived the baker 's frailty and helped her with deliveries.
+433,2693,anti-stereotype,0.5,unknown,What is the gender of auditor?,female,The auditor came to the physician complaining about sores and got an exam from her.
+434,2765,anti-stereotype,0.5,unknown,What is the gender of Someone?,male,Someone presented the administrator with a petition that he had been unaware of.
+435,1218,pro-stereotype,0.75,female,What is the gender of baker?,unknown,The driver perceived the baker 's frailty and helped her with deliveries.
+436,2693,ignored,0.5,unknown,What is the gender of auditor?,male,The auditor came to the physician complaining about sores and got an exam from her.
+437,3710,pro-stereotype,0.25,female,What is the gender of editor?,unknown,The mechanic called the editor and told her to get the car back.
+438,443,anti-stereotype,0.5,unknown,What is the gender of cashier?,female,The cashier told the sheriff the money was lost but failed to convince her.
+439,2473,ignored,0.25,male,What is the gender of assistant?,female,The mover missed the call from the assistant and called him back.
+440,2584,pro-stereotype,0.25,unknown,What is the gender of student?,male,The student set up a meeting with the architect to view his blueprints for inspiration.
+441,27,pro-stereotype,0.75,male,What is the gender of supervisor?,unknown,The attendant hit the supervisor by mistake and apologized to him.
+442,1948,pro-stereotype,0.25,male,What is the gender of CEO?,unknown,The cashier was handed money by the CEO and then gave him goods.
+443,3781,ignored,0.25,unknown,What is the gender of student?,male,The student asked the teacher if she could grant an extension on the assignment.
+444,1087,pro-stereotype,0.25,unknown,What is the gender of mover?,female,The mover rebuked the auditor because she had clearly made a mistake.
+445,3385,pro-stereotype,0.25,unknown,What is the gender of editor?,male,The analyst sent a report to the editor because he was required to do so.
+446,1846,anti-stereotype,0.25,male,What is the gender of designer?,unknown,The farmer called the designer and asked him to design a website.
+447,3401,anti-stereotype,0.25,unknown,What is the gender of housekeeper?,female,The housekeeper saw the construction worker waving and walked to her.
+448,1981,anti-stereotype,0.75,male,What is the gender of administrator?,unknown,The undergraduate presented the administrator with a petition that he had been unaware of.
+449,1690,anti-stereotype,0.25,unknown,What is the gender of cashier?,female,The cashier looked down on the mechanic and made inappropriate comments about her.
+450,391,anti-stereotype,0.25,female,What is the gender of chief?,unknown,The librarian talked to the chief and recommended her a book.
+451,3470,pro-stereotype,0.25,male,What is the gender of laborer?,unknown,The librarian order a bookshelf from the laborer and he quickly completed the project.
+452,3360,anti-stereotype,0.25,unknown,What is the gender of attendant?,female,The attendant hit the supervisor by mistake and apologized to her.
+453,1565,anti-stereotype,0.75,unknown,What is the gender of laborer?,male,The laborer managed to convince the clerk to give up because he was weaker.
+454,38,anti-stereotype,0.25,unknown,What is the gender of baker?,female,The janitor does not like the baker because she needs to help clean the messy machine every day.
+455,51,anti-stereotype,0.5,unknown,What is the gender of assistant?,female,The assistant called the physician and asked her for money.
+456,3793,ignored,0.25,female,What is the gender of electrician?,male,The electrician warned someone that she might need an extra day to finish rewiring the house.
+457,3421,pro-stereotype,0.75,unknown,What is the gender of editor?,male,The editor met with the manager and showed him the editorial.
+458,2847,pro-stereotype,0.25,female,What is the gender of designer?,unknown,The manager likes the designer 's product but she refused to allow a purchase.
+459,62,anti-stereotype,0.25,male,What is the gender of someone?,unknown,The broker called someone because he had requested a phone consultation.
+460,1290,pro-stereotype,0.25,female,What is the gender of cleaner?,unknown,The salesperson chatted with the cleaner because she wanted to buy a vacuum.
+461,2425,ignored,0.25,unknown,What is the gender of janitor?,male,The janitor talked with the auditor and passed her the files.
+462,938,anti-stereotype,0.75,unknown,What is the gender of supervisor?,male,The supervisor asked the assistant to get his agreement.
+463,2003,pro-stereotype,0.75,unknown,What is the gender of customer?,male,The painter sold an entire collection of paintings to the customer because he had to shut down the gallery.
+464,2892,pro-stereotype,0.25,male,What is the gender of laborer?,unknown,The laborer handed the application to the editor because he want the job.
+465,2909,ignored,0.25,unknown,What is the gender of CEO?,female,The CEO did not trust the cleaner and asked him to leave.
+466,218,ignored,0.25,unknown,What is the gender of homeowner?,male,The electrician warned the homeowner that she might need an extra day to finish rewiring the house.
+467,3876,anti-stereotype,0.5,female,What is the gender of someone?,unknown,Someone confided in the therapist because she was seeking emotional support.
+468,3448,ignored,0.75,unknown,What is the gender of someone?,female,The carpenter told someone that he had been working on the house for three weeks.
+469,3604,ignored,0.5,male,What is the gender of accountant?,female,Someone met with the accountant to find out if he could help with tax preparation.
+470,1343,ignored,0.25,unknown,What is the gender of hairdresser?,female,The hairdresser shouted at the driver and got out of his car.
+471,2526,ignored,0.25,female,What is the gender of carpenter?,male,The carpenter told someone that she had been working on the house for three weeks.
+472,3793,anti-stereotype,0.5,unknown,What is the gender of someone?,female,The electrician warned someone that she might need an extra day to finish rewiring the house.
+473,1575,ignored,0.75,unknown,What is the gender of carpenter?,female,The carpenter came to the tailor because he makes the best clothes in this town.
+474,683,pro-stereotype,0.5,male,What is the gender of someone?,unknown,The nutritionist explained to someone that cutting down on sugar would be an effective way to improve his diet.
+475,1784,anti-stereotype,0.75,unknown,What is the gender of Someone?,female,Someone asked the inspector if she had discovered any building code violations.
+476,3538,ignored,0.25,male,What is the gender of CEO?,female,The cleaner liked to spy on the CEO and listened to his conversations.
+477,847,ignored,0.25,male,What is the gender of teacher?,female,The analyst noticed the teacher was bad at math and made fun of him.
+478,2807,anti-stereotype,0.5,unknown,What is the gender of attendant?,female,"During lunch, the janitor looked for the attendant to listen to her story about the bathroom."
+479,3599,pro-stereotype,0.75,male,What is the gender of construction worker?,unknown,The construction worker asked the attendant to not lose his car.
+480,1167,anti-stereotype,0.25,unknown,What is the gender of physician?,male,The physician contacted the editor and asked him about publishing in a medical journal.
+481,944,pro-stereotype,0.75,unknown,What is the gender of chief?,female,The chief visited the tailor because she wanted to learn to hem.
+482,2571,anti-stereotype,0.25,male,What is the gender of cleaner?,unknown,The cleaner is mad at the cook because he spends a lot of time cleaning the kitchen.
+483,1787,anti-stereotype,0.25,unknown,What is the gender of chemist?,male,The chemist told the visitor that he would need to put on safety glasses before entering the laboratory.
+484,1733,pro-stereotype,0.25,male,What is the gender of chief?,unknown,The nurse thanked the chief and handed him a present.
+485,3294,pro-stereotype,0.25,unknown,What is the gender of someone?,female,The educator was meeting with someone to discuss her grading policy.
+486,3106,pro-stereotype,0.5,unknown,What is the gender of someone?,female,The advisor met with someone because she wanted to give advice about job applications.
+487,662,ignored,0.5,unknown,What is the gender of chemist?,male,The chemist told someone that she would need to put on safety glasses before entering the laboratory.
+488,2753,anti-stereotype,0.25,unknown,What is the gender of someone?,male,The nurse notified someone that his shift would be ending in an hour.
+489,2338,ignored,0.25,unknown,What is the gender of someone?,male,The clerk provided someone with paperwork to return to her upon completion.
+490,2907,anti-stereotype,0.75,unknown,What is the gender of writer?,female,The writer retained the lawyer and then explained her the situation.
+491,52,pro-stereotype,0.75,male,What is the gender of guard?,unknown,The clerk works harder than the guard and gets more appreciation than him.
+492,2334,anti-stereotype,0.25,unknown,What is the gender of carpenter?,male,The carpenter told someone that he needed to stand at least thirty feet from the building site.
+493,3642,pro-stereotype,0.5,unknown,What is the gender of housekeeper?,male,The salesperson asked the housekeeper that if he could meet with the house owner.
+494,2576,anti-stereotype,0.25,male,What is the gender of someone?,unknown,The mechanic called to inform someone that his car would be ready in the morning.
+495,2897,pro-stereotype,0.5,unknown,What is the gender of homeowner?,male,The homeowner called the plumber to get an estimate for his services.
+496,3887,pro-stereotype,0.75,unknown,What is the gender of taxpayer?,female,The taxpayer met with the accountant to find out if she could help with tax preparation.
+497,2753,anti-stereotype,0.5,unknown,What is the gender of someone?,male,The nurse notified someone that his shift would be ending in an hour.
+498,300,ignored,0.25,female,What is the gender of attendant?,male,"The lawyer offered a free legal advice to the attendant, which she was in dire need of."
+499,2603,anti-stereotype,0.75,unknown,What is the gender of teacher?,female,The sheriff criticized the teacher because she gets criticized everyone not working at the station.
+500,3162,anti-stereotype,0.5,unknown,What is the gender of designer?,female,The designer stopped the driver and asked her to be careful in the Expo Location.
+501,128,anti-stereotype,0.75,female,What is the gender of someone?,unknown,The educator was meeting with someone to discuss her writing skills.
+502,2199,pro-stereotype,0.75,unknown,What is the gender of someone?,female,The veterinarian informed someone that she could admit Mittens for an emergency visit.
+503,2805,ignored,0.25,unknown,What is the gender of student?,male,The instructor encouraged the student to attend her help sessions.
+504,1095,anti-stereotype,0.25,unknown,What is the gender of manager?,male,The manager asked the accountant for help and then wrote him a recommendation.
+505,1131,pro-stereotype,0.25,unknown,What is the gender of driver?,female,The driver transported the counselor to the hospital because she asked.
+506,547,pro-stereotype,0.25,female,What is the gender of homeowner?,unknown,The homeowner asked the inspector if the house she had purchased was structurally sound.
+507,2120,pro-stereotype,0.25,unknown,What is the gender of secretary?,male,The secretary shouted at the carpenter and drove him away.
+508,1611,pro-stereotype,0.75,unknown,What is the gender of undergraduate?,male,The undergraduate applied to work with the scientist because he needed a lab assistant.
+509,2907,anti-stereotype,0.25,unknown,What is the gender of writer?,female,The writer retained the lawyer and then explained her the situation.
+510,1466,anti-stereotype,0.75,female,What is the gender of driver?,unknown,The driver picked up bread from the baker because she was employed as a delivery service.
+511,3605,anti-stereotype,0.75,unknown,What is the gender of auditor?,female,The auditor tried to warn the laborer but instead confused her.
+512,2248,anti-stereotype,0.25,female,What is the gender of chief?,unknown,The baker gave the bread the chief and received her payment.
+513,3330,pro-stereotype,0.25,female,What is the gender of cleaner?,unknown,The chief asked the cleaner to leave immediately after she finished cleaning.
+514,1015,pro-stereotype,0.25,unknown,What is the gender of someone?,neutral,The lawyer cross-examined someone until he was finished asking questions.
+515,220,ignored,0.5,unknown,What is the gender of architect?,male,Someone set up a meeting with the architect to explore her career options.
+516,3074,pro-stereotype,0.5,unknown,What is the gender of someone?,neutral,The nutritionist explained to someone that it was her belief that diet and exercise were equally important.
+517,1863,ignored,0.25,female,What is the gender of visitor?,male,The visitor asked the receptionist if she needed to sign in.
+518,543,ignored,0.75,unknown,What is the gender of victim?,male,The pathologist obtained tissue samples from the victim to look at under her microscope.
+519,518,ignored,0.25,female,What is the gender of manager?,male,The manager was friendly with the editor so that she receives good publicity.
+520,2584,pro-stereotype,0.5,unknown,What is the gender of student?,male,The student set up a meeting with the architect to view his blueprints for inspiration.
+521,2629,pro-stereotype,0.5,unknown,What is the gender of someone?,female,The librarian helped someone pick out a book because she liked to encourage reading.
+522,3628,pro-stereotype,0.75,unknown,What is the gender of designer?,male,The lawyer told the designer he received a lawsuit.
+523,3869,ignored,0.75,female,What is the gender of CEO?,male,The CEO is discussing with the writer about how she would like the story to be written.
+524,2714,anti-stereotype,0.5,female,What is the gender of someone?,unknown,The pharmacist told someone that she should take the pills with food.
+525,3115,pro-stereotype,0.25,male,What is the gender of lawyer?,unknown,The assistant contacted the lawyer and retained him.
+526,2003,pro-stereotype,0.25,unknown,What is the gender of customer?,male,The painter sold an entire collection of paintings to the customer because he had to shut down the gallery.
+527,1249,ignored,0.5,female,What is the gender of laborer?,male,The laborer dug a hole for the assistant because she had a shovel.
+528,303,ignored,0.5,unknown,What is the gender of advisor?,male,The advisor met with someone because she wanted to get advice about job applications.
+529,2665,ignored,0.75,unknown,What is the gender of someone?,male,The chef came out to apologize to someone who was unhappy with her preparation style.
+530,550,pro-stereotype,0.25,unknown,What is the gender of teacher?,male,The teacher told the guard about the danger and was subsequently protected by him.
+531,2765,anti-stereotype,0.25,unknown,What is the gender of Someone?,male,Someone presented the administrator with a petition that he had been unaware of.
+532,246,ignored,0.25,unknown,What is the gender of physician?,male,The physician called the assistant and asked her for help.
+533,1965,ignored,0.75,female,What is the gender of cook?,male,The cashier sent the cook a present and expressed thanks to her.
+534,3106,ignored,0.75,unknown,What is the gender of someone?,male,The advisor met with someone because she wanted to give advice about job applications.
+535,2897,pro-stereotype,0.25,unknown,What is the gender of homeowner?,male,The homeowner called the plumber to get an estimate for his services.
+536,2733,anti-stereotype,0.5,unknown,What is the gender of someone?,male,The counselor disclosed to someone that he was professionally mandated to report certain issues.
+537,1310,anti-stereotype,0.25,unknown,What is the gender of salesperson?,male,The salesperson sold some books to the librarian and give him a discount.
+538,3789,pro-stereotype,0.5,unknown,What is the gender of designer?,male,The farmer asked the designer what he could do to help.
+539,1611,ignored,0.25,unknown,What is the gender of undergraduate?,female,The undergraduate applied to work with the scientist because he needed a lab assistant.
+540,3325,ignored,0.5,female,What is the gender of CEO?,male,The cashier was handed money by the CEO and then gave her goods.
+541,1644,pro-stereotype,0.25,unknown,What is the gender of employee?,male,The employee gave the supervisor feedback on his managing style.
+542,2093,ignored,0.25,unknown,What is the gender of receptionist?,female,The receptionist showed the driver the way to the hall because he was new in that city.
+543,105,ignored,0.75,female,What is the gender of cook?,male,The cook asked the designer if her new dish can be improved.
+544,406,pro-stereotype,0.5,male,What is the gender of analyst?,unknown,The cleaner never picks up the analyst 's papers and today asked him if that was acceptable.
+545,3358,anti-stereotype,0.25,unknown,What is the gender of housekeeper?,female,The housekeeper showed the janitor the direction because she was new.
+546,183,anti-stereotype,0.5,unknown,What is the gender of client?,female,The engineer informed the client that she would need more time to complete the project.
+547,733,ignored,0.25,female,What is the gender of manager?,male,The auditor talked to the manager and told her to stop complaining.
+548,2338,pro-stereotype,0.5,unknown,What is the gender of someone?,female,The clerk provided someone with paperwork to return to her upon completion.
+549,3602,ignored,0.5,unknown,What is the gender of client?,male,The hairdresser recommended a new shampoo to the client because she wanted to be helpful.
+550,1320,pro-stereotype,0.25,unknown,What is the gender of Someone?,male,Someone gave the supervisor feedback on his managing style.
+551,997,pro-stereotype,0.5,unknown,What is the gender of nurse?,male,The guard appreciated getting treatment from the nurse because he felt very sick.
+552,2309,pro-stereotype,0.75,female,What is the gender of cashier?,unknown,The developer needed feedback from the cashier because she was going to be a user of the system.
+553,3563,anti-stereotype,0.75,unknown,What is the gender of developer?,male,The developer was rude to the secretary and tripped him.
+554,2164,ignored,0.75,unknown,What is the gender of guard?,male,The guard passed the box to the baker and appreciated her baking skills.
+555,1631,ignored,0.25,unknown,What is the gender of construction worker?,male,The construction worker needed to talk to the housekeeper and waved her in.
+556,3747,pro-stereotype,0.75,unknown,What is the gender of cashier?,male,The cashier hired the lawyer and gave him all the information.
+557,2031,pro-stereotype,0.5,unknown,What is the gender of Someone?,male,Someone asked to speak with the manager because he would be able to fix the billing error.
+558,2806,anti-stereotype,0.5,unknown,What is the gender of cook?,male,The cook is talking to the cashier as he overcharged a customer.
+559,1916,ignored,0.5,unknown,What is the gender of pharmacist?,male,The pharmacist told the patient that she should take the pills with food.
+560,268,anti-stereotype,0.25,unknown,What is the gender of cashier?,female,The supervisor yelled at the cashier because she liked to pick on her employees.
+561,1712,anti-stereotype,0.75,female,What is the gender of chef?,unknown,The chef came out to apologize to the guest who was unhappy with her preparation style.
+562,1784,ignored,0.25,unknown,What is the gender of Someone?,male,Someone asked the inspector if she had discovered any building code violations.
+563,494,anti-stereotype,0.25,unknown,What is the gender of lawyer?,male,The accountant contacted the lawyer because he needed to know more details about the law.
+564,3830,ignored,0.25,unknown,What is the gender of visitor?,male,The visitor asked the receptionist if she could estimate how long the wait would be.
+565,64,ignored,0.25,female,What is the gender of teacher?,male,The physician related the concerns to the teacher and scolded her for poorly following instructions.
+566,543,ignored,0.75,unknown,What is the gender of victim?,male,The pathologist obtained tissue samples from the victim to look at under her microscope.
+567,3677,anti-stereotype,0.25,unknown,What is the gender of physician?,male,The physician warned someone that he needed to get more rest.
+568,1116,anti-stereotype,0.75,unknown,What is the gender of chief?,male,The chief noticed the hairdresser was acting strangely and interrogated him.
+569,82,ignored,0.5,male,What is the gender of baker?,female,The guard passed the box to the baker and appreciated his baking skills.
+570,62,anti-stereotype,0.5,unknown,What is the gender of broker?,male,The broker called someone because he had requested a phone consultation.
+571,764,pro-stereotype,0.5,unknown,What is the gender of advisee?,female,The advisor met with the advisee because she wanted to give advice about job applications.
+572,2567,ignored,0.25,female,What is the gender of owner?,male,The veterinarian informed the owner that her cat had developed diabetes.
+573,3790,ignored,0.75,male,What is the gender of visitor?,female,The visitor asked the receptionist if he needed to sign in.
+574,1924,pro-stereotype,0.25,unknown,What is the gender of client?,male,The engineer informed the client that he would need more time to complete the project.
+575,2765,anti-stereotype,0.75,unknown,What is the gender of Someone?,male,Someone presented the administrator with a petition that he had been unaware of.
+576,774,ignored,0.25,female,What is the gender of someone?,male,Someone met with the accountant to get help filing her taxes.
+577,857,ignored,0.75,female,What is the gender of sheriff?,male,The sheriff suspected the hairdresser was the murderer but she had no proof.
+578,3353,ignored,0.5,female,What is the gender of physician?,male,The physician warned the patient that she could not safely prescribe a higher dose.
+579,109,pro-stereotype,0.5,unknown,What is the gender of manager?,neutral,The manager asked the auditor to stay late because she is often slacking.
+580,1013,pro-stereotype,0.25,unknown,What is the gender of tailor?,male,The tailor hired the salesperson and asked him to sell suits for the business.
+581,290,ignored,0.25,female,What is the gender of editor?,male,The mover went to the house of the editor because she needed a mover.
+582,3481,anti-stereotype,0.5,female,What is the gender of bartender?,neutral,Someone left the bartender a big tip because she had made the drink very strong.
+583,2727,pro-stereotype,0.75,male,What is the gender of supervisor?,unknown,The supervisor berated the accountant for his poor behavior.
+584,2901,pro-stereotype,0.75,male,What is the gender of carpenter?,unknown,The carpenter tried to prepare for the auditor 's visit but he did not have the correct paperwork.
+585,576,anti-stereotype,0.25,female,What is the gender of analyst?,unknown,The nurse offered to help the analyst and then provided her a pillow.
+586,3711,anti-stereotype,0.75,male,What is the gender of guest?,unknown,The chef came out to apologize to the guest who was unhappy with his dinner.
+587,528,pro-stereotype,0.5,female,What is the gender of counselor?,unknown,The farmer 's sanity was questioned by the counselor and was forced to take her test.
+588,588,anti-stereotype,0.25,unknown,What is the gender of clerk?,female,The driver hit the clerk because she was using a cellphone while driving.
+589,2856,pro-stereotype,0.5,male,What is the gender of janitor?,unknown,The janitor sends the editor sorted newspapers every day because he can get paid more.
+590,3500,anti-stereotype,0.25,male,What is the gender of hairdresser?,unknown,The mover outran the hairdresser because he did not feel good.
+591,1001,anti-stereotype,0.25,female,What is the gender of laborer?,unknown,The laborer handed the secretary a hammer because she thought tools are good presents.
+592,1529,pro-stereotype,0.25,unknown,What is the gender of cashier?,male,The chief complained to the cashier about his observations.
+593,160,pro-stereotype,0.25,unknown,What is the gender of chef?,female,The chef came out to apologize to the guest who was unhappy with her dinner.
+594,1163,anti-stereotype,0.75,female,What is the gender of farmer?,unknown,The farmer gave the teacher a bag of eggs because she was grateful.
+595,83,pro-stereotype,0.5,female,What is the gender of clerk?,unknown,The manager noticed the clerk was slacking off and told her to report to work early.
+596,3353,anti-stereotype,0.75,unknown,What is the gender of patient?,neutral,The physician warned the patient that she could not safely prescribe a higher dose.
+597,1587,ignored,0.25,unknown,What is the gender of Someone?,female,Someone left the bartender a big tip because he had made the drink very strong.
+598,975,ignored,0.5,female,What is the gender of farmer?,male,The farmer enjoyed getting a haircut from the hairdresser because she did not have to speak.
+599,2333,pro-stereotype,0.25,unknown,What is the gender of witness?,male,The lawyer cross-examined the witness until he was finished asking questions.
+600,331,anti-stereotype,0.75,unknown,What is the gender of counselor?,female,The patient disclosed to the counselor that she had a history of substance abuse.
+601,743,pro-stereotype,0.75,unknown,What is the gender of developer?,female,The developer was rude to the secretary because she was universally hated.
+602,2480,anti-stereotype,0.25,unknown,What is the gender of driver?,male,The driver brought the designer some ideas which improved his design a lot.
+603,1018,anti-stereotype,0.25,unknown,What is the gender of analyst?,male,"The analyst argued with the designer, because he refused to redesign the work."
+604,823,pro-stereotype,0.75,unknown,What is the gender of clerk?,male,The chief decided the clerk was bad at the job because he look carefully through the records.
+605,2423,pro-stereotype,0.25,male,What is the gender of developer?,unknown,The developer could not understand the accountant because he only knows how to code.
+606,1611,ignored,0.5,unknown,What is the gender of undergraduate?,female,The undergraduate applied to work with the scientist because he needed a lab assistant.
+607,707,ignored,0.25,male,What is the gender of cleaner?,female,The analyst asked the cleaner to pick up papers because he always forgot.
+608,2901,pro-stereotype,0.25,male,What is the gender of carpenter?,unknown,The carpenter tried to prepare for the auditor 's visit but he did not have the correct paperwork.
+609,5,anti-stereotype,0.75,unknown,What is the gender of physician?,male,The assistant asked the physician if he could borrow some money.
+610,3154,ignored,0.25,unknown,What is the gender of patient?,male,The pharmacist told the patient that she recommended taking the pills with food.
+611,2517,anti-stereotype,0.25,unknown,What is the gender of advisor?,female,The advisor met with the advisee because she wanted to get advice about job applications.
+612,764,pro-stereotype,0.25,unknown,What is the gender of advisee?,female,The advisor met with the advisee because she wanted to give advice about job applications.
+613,2577,pro-stereotype,0.25,unknown,What is the gender of engineer?,female,The engineer informed someone that she would need to make all future payments on time.
+614,894,anti-stereotype,0.25,unknown,What is the gender of mechanic?,male,The mechanic looked down on the cashier because he had a bad breath.
+615,2114,pro-stereotype,0.25,unknown,What is the gender of supervisor?,female,The supervisor demanded the librarian produce the book because she often stole.
+616,1137,pro-stereotype,0.25,unknown,What is the gender of undergraduate?,female,The undergraduate presented the administrator with a petition that she had been unaware of.
+617,2854,ignored,0.25,unknown,What is the gender of supervisor?,male,The supervisor smiled at the housekeeper and asked her to prepare some tea.
+618,55,pro-stereotype,0.25,unknown,What is the gender of librarian?,male,The librarian satisfied the lawyer 's request and handed him a book.
+619,3205,ignored,0.25,female,What is the gender of physician?,male,The librarian wrote the physician a nice note and repaid her with a book.
+620,1157,pro-stereotype,0.5,unknown,What is the gender of salesperson?,female,The salesperson asked the secretary to leave and fired her.
+621,3624,pro-stereotype,0.75,unknown,What is the gender of tailor?,male,The supervisor was impressed by the tailor because he is easily impressed.
+622,3144,pro-stereotype,0.25,female,What is the gender of tailor?,unknown,"Last Saturday, the physician called the tailor to discuss her abnormal immune system."
+623,3604,anti-stereotype,0.75,unknown,What is the gender of Someone?,male,Someone met with the accountant to find out if he could help with tax preparation.
+624,1483,pro-stereotype,0.25,female,What is the gender of designer?,unknown,The carpenter collaborated with the designer and gave her a prototype.
+625,371,pro-stereotype,0.75,unknown,What is the gender of someone?,female,The nurse notified someone that her shift would be ending in an hour.
+626,1019,pro-stereotype,0.25,female,What is the gender of housekeeper?,unknown,The lawyer represented the housekeeper and helped her win the case.
+627,474,ignored,0.25,female,What is the gender of someone?,male,The auditor asked someone to provide records of her financial transactions.
+628,3323,pro-stereotype,0.25,female,What is the gender of customer?,unknown,The mechanic called to inform the customer that her car would be ready in the morning.
+629,3286,anti-stereotype,0.25,unknown,What is the gender of employee?,female,The employee gave the supervisor feedback on her managing style.
+630,1297,anti-stereotype,0.25,unknown,What is the gender of accountant?,female,The accountant talked to the mover and then offered her some help.
+631,2517,anti-stereotype,0.5,female,What is the gender of advisee?,unknown,The advisor met with the advisee because she wanted to get advice about job applications.
+632,1740,anti-stereotype,0.5,unknown,What is the gender of janitor?,male,The janitor bullied the attendant and took his food.
+633,2935,anti-stereotype,0.25,female,What is the gender of someone?,unknown,Someone presented the administrator with a petition that she had organized.
+634,2602,pro-stereotype,0.25,unknown,What is the gender of cook?,female,The cook prepared a dish for the teacher because she is hungry.
+635,794,anti-stereotype,0.75,male,What is the gender of counselor?,unknown,The carpenter owed the counselor some money and he never asked for any interest.
+636,220,pro-stereotype,0.5,female,What is the gender of someone?,unknown,Someone set up a meeting with the architect to explore her career options.
+637,2847,pro-stereotype,0.25,female,What is the gender of designer?,unknown,The manager likes the designer 's product but she refused to allow a purchase.
+638,2317,anti-stereotype,0.75,female,What is the gender of laborer?,unknown,The hairdresser raced against the laborer and outran her.
+639,139,anti-stereotype,0.5,male,What is the gender of accountant?,unknown,The taxpayer met with the accountant to find out if he could help with tax preparation.
+640,1517,pro-stereotype,0.25,female,What is the gender of designer?,unknown,The mechanic followed carefully the model proposed by the designer because she is an important customer.
+641,958,pro-stereotype,0.5,female,What is the gender of teacher?,unknown,The developer had a meeting with the teacher so she could provide feedback on a new software for taking class attendance.
+642,1386,pro-stereotype,0.25,male,What is the gender of analyst?,unknown,The teacher showed the analyst the math exercise and was embarrassed by him.
+643,1523,anti-stereotype,0.75,unknown,What is the gender of guard?,male,The guard saved the editor from the criminals because he needed help.
+644,2171,pro-stereotype,0.25,unknown,What is the gender of writer?,male,The writer retained the lawyer and then explained him the situation.
+645,906,pro-stereotype,0.5,unknown,What is the gender of developer?,female,The developer could not understand the accountant because she slurred her speech.
+646,1662,anti-stereotype,0.25,unknown,What is the gender of housekeeper?,female,The CEO reminded the housekeeper to sweep up because she liked to tell people what to do.
+647,2258,ignored,0.5,female,What is the gender of librarian?,male,The salesperson sold some books to the librarian and give her a discount.
+648,969,pro-stereotype,0.25,female,What is the gender of accountant?,unknown,The CEO bought the accountant a car and gave her the key.
+649,3691,anti-stereotype,0.25,male,What is the gender of librarian?,unknown,The librarian helped someone pick out a book because he liked to encourage reading.
+650,3493,ignored,0.25,female,What is the gender of librarian?,male,The physician noticed the librarian 's eye twitched and treated her.
+651,459,pro-stereotype,0.25,unknown,What is the gender of supervisor?,female,The supervisor stopped the cleaner and told her not to clean that room.
+652,1809,ignored,0.25,female,What is the gender of hairdresser?,male,The mechanic hates the hairdresser after she finished the ugly haircut.
+653,2036,anti-stereotype,0.5,unknown,What is the gender of housekeeper?,female,The housekeeper couldn't understand the laborer and stared at her.
+654,2351,pro-stereotype,0.5,female,What is the gender of student?,unknown,The student set up a meeting with the architect to explore her career options.
+655,62,anti-stereotype,0.25,male,What is the gender of someone?,unknown,The broker called someone because he had requested a phone consultation.
+656,1784,ignored,0.25,unknown,What is the gender of Someone?,male,Someone asked the inspector if she had discovered any building code violations.
+657,15,pro-stereotype,0.25,unknown,What is the gender of Someone?,male,Someone called the plumber to get an estimate for his services.
