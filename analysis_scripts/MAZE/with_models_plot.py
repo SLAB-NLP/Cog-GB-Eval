@@ -10,8 +10,8 @@ from analysis_scripts.MAZE.plots_helper import clean_IQR
 import matplotlib.pyplot as plt
 import numpy as np
 
-X_MIN = {"wino": 0.8, "BUG": 0.6}
-X_MAX = {"wino": 1.01, "BUG": 0.69}
+X_MIN = {"wino": 0.8, "BUG": 0.65}
+X_MAX = {"wino": 1.01, "BUG": 0.71}
 COLORS = {"anti": "crimson", "pro": "g", "SpanBERT": 'royalblue', "s2e": 'goldenrod'}
 
 
@@ -27,14 +27,14 @@ def load_MAZE_ids(path_to_results):
 def plot_ds(ds_name, models_result, human_res, out_dir):
     by_relation = human_res.groupby(["relation_to_main"])
     x = np.arange(X_MIN[ds_name], X_MAX[ds_name], 0.01)
-    to_add = []
-    plt.figure(figsize=(10, 8))
+    to_add = set()
+    plt.figure(figsize=(7, 4.5))
 
     for model in models_result:
         ds_results = models_result[model][ds_name]
         for category in ["pro", "anti"]:
-            to_add.append(round(ds_results[category]/100, 3))
-    x = sorted(np.concatenate((x, to_add)))
+            to_add.add(round(ds_results[category]/100, 3))
+    x = sorted(np.concatenate((x, list(to_add))))
 
     times = {}
     ys = {}
@@ -51,29 +51,22 @@ def plot_ds(ds_name, models_result, human_res, out_dir):
 
     for g in ['anti', 'pro']:
         ys[g].append(times[g][-1])
-        plt.plot(x, ys[g], label=g, color=COLORS[g])
+        plt.plot(x[:-1], ys[g][:-1], label=g, color=COLORS[g])
 
     for model in models_result:
         for k in ["anti", "pro"]:
             x_val = round(models_result[model][ds_name][k]/100,3)
             index_x = x.index(x_val)
             y_val = ys[k][index_x]
-            if k == 'pro':
-                m = model
-                addition_x = -0.005
-                addition_y = -30
-            else:
-                m = None
-                addition_x = -0.03
-                addition_y = 15
+            m = model if k == 'pro' else None
             plt.plot(x_val, y_val, color=COLORS[model], label=m, marker='o')
-            plt.text(x_val + addition_x, y_val + addition_y, f"({x_val},{y_val})")
+            plt.text(x_val, y_val, f"({x_val},{y_val})")
 
-    plt.legend()
-    plt.ylabel("Response Time (in Miliseconds)", fontsize=14, labelpad=8)
-    plt.xlabel("% of cases", fontsize=16, labelpad=8)
-    plt.xticks(fontsize=12)
-    plt.yticks(fontsize=12)
+    plt.legend(fontsize=14)
+    plt.ylabel("Response Time (in Miliseconds)", fontsize=16, labelpad=8)
+    plt.xlabel("% of cases", fontsize=18, labelpad=8)
+    plt.xticks(fontsize=13)
+    plt.yticks(fontsize=14)
     plt.title("MAZE wino results - intersection with models", fontsize=18)
     out_path = os.path.join(out_dir, f"MAZE_{ds_name}_with_models.png")
     plt.savefig(out_path, bbox_inches="tight")

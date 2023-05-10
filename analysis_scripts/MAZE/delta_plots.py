@@ -14,13 +14,13 @@ def pyplot_config():
     plt.xlabel("% of cases", fontsize=16, labelpad=8)
     plt.xticks(fontsize=14)
     plt.yticks(fontsize=12)
-    plt.legend()
+    plt.legend(fontsize=14)
 
 
 def plot_deltas(path_to_results):
     deltas_dict = {}
     x = np.arange(0.5, 1.01, 0.01)
-    plt.figure(figsize=(10, 8))
+    plt.figure(figsize=(6, 4))
 
     for ds in DATASET_NAMES:
         deltas_path = os.path.join(path_to_results, ds, 'deltas.npy')
@@ -28,7 +28,7 @@ def plot_deltas(path_to_results):
         plt.plot(x, deltas_dict[ds], color=DELTAS_COLORS[ds], label=ds)
     pyplot_config()
     path = os.path.join(path_to_results, "delta_plot.png")
-    plt.savefig(path)
+    plt.savefig(path, bbox_inches="tight")
 
 
 if __name__ == '__main__':

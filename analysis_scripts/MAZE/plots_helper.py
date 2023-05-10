@@ -56,17 +56,17 @@ def plot_cdf(df, out_dir, ds_name):
     for g in by_relation.groups:
         ys[g].append(times[g][-1])
         plt.plot(x, ys[g], label=g, color=COLORS[g])
-    plt.legend()
+    plt.legend(fontsize=14)
 
     out_path = os.path.join(out_dir, "cdf.png")
-    plt.savefig(out_path)
+    plt.savefig(out_path, bbox_inches="tight")
     deltas = np.array(ys['anti']) - np.array(ys['pro'])
     deltas_out_path = os.path.join(out_dir, "deltas.npy")
     np.save(deltas_out_path, deltas)
 
 
 def pyplot_design(ds_name):
-    plt.figure(figsize=(10, 8))
+    plt.figure(figsize=(6, 4))
     plt.ylabel("Response Time (in Miliseconds)", fontsize=14, labelpad=8)
     plt.xlabel("% of cases", fontsize=16, labelpad=8)
     plt.title(f"{ds_name} MAZE cdf", fontsize=20, pad=13)
