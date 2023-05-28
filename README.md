@@ -1,7 +1,7 @@
 # Cog-GB-Eval
 Compare humans gender bias and coreference resolution models. Lior &amp; Stanovsky, CogSci 2023
 
-###Model results parsing
+### Model results parsing
 
 From jsonl raw results file to a list of correct and incorrect sentence ids:
 
