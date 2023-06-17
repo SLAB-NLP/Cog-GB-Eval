@@ -48,21 +48,6 @@ def draw_results(results):
             plt.plot(anti, pro, color=COLORS[ds], marker=marker, markersize=size)
 
 
-# def plot_BUG(results_BUG):
-#     for k in results_BUG:
-#         pro = results_BUG[k]["pro"]
-#         anti = results_BUG[k]["anti"]
-#         # theta = np.degrees(np.arctan(pro/anti))
-#         if 'Human' in k:
-#             s = LEGEND_MARKER_SIZE["Human"]
-#             alpha = float(k.split(' ')[1])
-#             plt.text(anti, pro+0.7, f"{alpha}",size=9)
-#         else:
-#             s = LEGEND_MARKER_SIZE[k]
-#         plt.plot(anti, pro, color=, marker=results_BUG[k]["marker"],
-#                  markersize=s)
-
-
 def plot_results(all_results, out_path):
     plt.figure()
     draw_results(all_results)

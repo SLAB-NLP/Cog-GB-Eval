@@ -8,10 +8,10 @@ covered in the QA experiment.
 This script assumes you've already run the generate_human_results_table.py script.
 
 Usage:
-    analysis_scripts/QA/generate_human_results_table.py --models_path <path_to_models_results_dictionary> --humans_path <path_to_humans_scoring_table> --out <out_path>
+    analysis_scripts/QA/generate_combined_results.py --models_path <path_to_models_results_dictionary> --humans_path <path_to_humans_scoring_table> --out <out_path>
 
 Example:
-    analysis_scripts/QA/generate_human_results_table.py --models_path experiment_results/processed/models/eval.json --humans_path experiment_results/processed/humans/QA/ --out experiment_results/processed/final/QA_combined_table.md
+    analysis_scripts/QA/generate_combined_results.py --models_path experiment_results/processed/models/eval.json --humans_path experiment_results/processed/humans/QA/ --out experiment_results/processed/final/QA_combined_table.md
 
 """
 
