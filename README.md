@@ -19,7 +19,7 @@ From jsonl raw results file to a list of correct and incorrect sentence ids:
 `python analyze_models/generate_result_ids_lists.py --out_path --out_path experiment_results/processed/models_eval.json --model_name s2e --model_name SpanBERT`
 
 
-###QA results parsing
+### QA results parsing
 Generate QA results table from humans raw csv results.
 
 BUG:
@@ -47,9 +47,9 @@ DELTA plots (difference between pro and anti stereotype for both datasets):
 `python analysis_scripts/MAZE/delta_plots.py --results_dir experiment_results/processed/humans/MAZE`
 
 
-###Compare human and model results
+### Compare human and model results
 
-####QA
+#### QA
 Generate a combined table results:
 
 `python analysis_scripts/QA/generate_combined_results.py --models_path experiment_results/processed/models/eval.json --humans_path experiment_results/processed/humans/QA/ --out experiment_results/processed/final/QA_combined_table.md`
@@ -63,7 +63,7 @@ Qualitative analysis:
 
 `python analysis_scripts/QA/qualitative_analysis.py --models_path experiment_results/processed/models/eval.json --humans_path experiment_results/processed/humans/QA --out experiment_results/processed/final`
 
-####MAZE
+#### MAZE
 
 Generate a combined plot for humans and models, one for wino and one for BUG:
 
@@ -83,7 +83,7 @@ This directory conatains all the code for analyzing and comparing human and mode
 [original_data](original_data): The original datasets (winogender, winobias, gold BUG), as well as some metadata. 
 
 
-##Evaluating a new model
+## Evaluating a new model
 In order to use the above script to analyze a new coreference model, the following steps need to be maid
 
 1. Run your model over [BUG](original_data/gold_BUG.csv) and [wino](original_data/wino_combined.csv) datasets.
