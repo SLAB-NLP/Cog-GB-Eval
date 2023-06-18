@@ -9,6 +9,10 @@ CogSci 2023
 
 ## Reproducing our results
 
+First, install all packages used in this repository:
+
+`pip install -r requirements.txt`
+
 Tested on python 3.7.
 
 
